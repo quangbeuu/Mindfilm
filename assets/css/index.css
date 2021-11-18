@@ -1,0 +1,446 @@
+/* Reset css */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    line-height: 16px;
+    background-color: #06121e;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* 1. Menu */
+
+.movie__wrap{
+    /* padding: 0 46px; */
+}
+
+.movie__top{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    background-color: #2f0a62;
+    opacity: 0.8;
+    width: 100%;
+    z-index: 1;
+}
+
+.movie-logo{
+    width: 240px;
+}
+
+.movie__logo-image{
+    max-width: 160px;
+    object-fit: cover;
+}
+
+.movie__menu{
+    display: flex;
+    margin-left: 45px;
+}
+
+.movie__menu-item{
+    margin-left: 18px;
+}
+
+.movie__menu-item:hover .movie__menu-link{
+    color: tomato;
+}
+
+.movie__menu-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    transition: all ease-in 0.1s;
+}
+
+.movie__menu-right{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width:200px;
+    justify-content: space-between;
+}
+.movie__menu-btn{
+    outline: none;
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 18px;
+    font-size: 16px;
+}
+
+.movie__menu-btn:hover{
+    opacity: 0.9;
+}
+
+.movie__menu-icon{
+    color: white;
+    transition: all ease-in 0.1s;
+}
+
+.movie__menu-search:hover .movie__menu-icon{
+    color: tomato;
+    cursor: pointer;
+}
+
+/* 1.0 Icon search */
+
+.movie__search-wrap{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.movie__search-wrap:hover .movie__search-box{
+    display: block;
+}
+
+.movie__search-box{
+    position: absolute;
+    right: -10px;
+    top: calc(100% + 4px);
+    display: none;
+}
+
+.movie__search-box::after{
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    border-width: 8px 12px;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+    z-index: 10;
+}
+
+.movie__search-box::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 100px;
+    height: 18px;
+    background-color: transparent;
+}
+
+/* 1.1 Slidebar */
+
+/* Start Phần mở, đóng Slidebar */
+.movie__slidebar-container.movie__slidebar-open{
+    transform: translateX(0);
+}
+/* End Phần mở đóng Slidebar */
+
+.movie__slidebar-container{
+    position: fixed;
+    right: 0;
+    /* full hết màn hình */
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: #0B1E30;
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.movie__slidebar{
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+}
+
+.movie__slidebar-close-icon{
+    position: absolute;
+    color: #e2dfdf;
+    top: 0;
+    right: 0;
+    font-size: 26px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.movie__slidebar-wrap{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie__slidebar-logo{
+
+}
+
+.movie__slidebar-input{
+    margin-top: 18px;
+    position: relative;
+}
+
+.movie__slidebar-input-box{
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    /* box-shadow: 0px 0px 0px 0 #ffffff; */
+    border-radius: 8px;
+    /* padding-right để viết ko bị đè lên icon */
+    padding-right: 32px;
+}
+
+.movie__slidebar-search{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.movie__slidebar-btn{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie__slidebar-button{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.movie__btn--green{
+    background-color: #9dff89;
+}
+
+.movie__slidebar-list{
+    align-self: center;
+}
+
+.movie__slidebar-item{
+    margin-top: 18px;
+}
+
+.movie__slidebar-link{
+    color: white;
+    font-size: 20px;
+}
+/* 2. Slider */
+
+.movie__slider{
+    padding: 88px 46px; 
+    /* margin: 0 auto; */
+    max-width: 100%;
+    position: relative;
+}
+
+.movie__slider-next,
+.movie__slider-prev{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #2f0a62;
+    font-size: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.movie__slider-next{
+    right: 18px;
+}
+
+.movie__slider-prev{
+    left: 18px;
+}
+
+.movie__slider-dots{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.movie__slider-dots li {
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #999;
+    cursor: pointer;
+    transition: background-color 0.25s linear;
+}
+
+.movie__slider-dots li.active{
+    background-color: white;
+}
+
+.movie__slider-wrapper{
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+}
+
+.movie__slider-main{
+    display: flex;
+    position: relative;
+    transition: transform 0.25s linear;
+    height: 100%;
+}
+
+.movie__slider-item{
+    height: 100%;
+    width: 100%;
+    flex: 1 0 100%;
+    user-select: none;
+}
+
+.movie__slider-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 3. Content */
+.movie__content{
+    padding: 0 58px;
+}
+.movie__box{
+    margin-top: 18px;
+}
+.movie__header-wrap{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eeee;
+    border-top: 1px solid #eeee;
+    justify-content: space-between;
+}
+.movie__header{
+    font-size: 28px;
+    /* Sau nhớ đổi thành màu chữ gradient */
+    color: white;
+    font-weight: 500;
+}
+
+.movie__expand a{
+    color: white;
+}
+
+.movie__list{
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* display: none; */
+}
+
+
+.movie__item{
+    margin-left: 8px;
+    margin-bottom: 18px;
+}
+
+.movie__image{
+    width: 280px;
+    height: 418px;
+    object-fit: cover;
+}
+
+.movie__title{
+    width: 276px;
+    margin-top: 8px;
+    color: white;
+}
+
+/* 4. Footer */
+.footer{
+    margin-top: 18px;
+    height: 240px;
+    background-image: linear-gradient(rgba(47,10,98,0.8),rgb(47,10,98,0.8)), url("https://www.denofgeek.com/wp-content/uploads/2017/08/fandango-essential-movies.png?resize=768%2C432");
+    padding: 25px 102px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.footer__left{
+
+}
+
+.footer__social{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__icon{
+    margin-left: 8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color:#313347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px 0 #46494a;
+}
+
+.footer__icon:first-child{
+    margin-left: 0px;
+}
+
+.footer__icon-link{
+    color: white;
+}
+
+.footer__mid{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.footer__mid-icon{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.footer__content{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.footer__content-wrap{
+    margin-top: 10px;
+}
+
+.footer__content-wrap li{
+    margin-top: 8px;
+}
+
+.footer__content-link{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}

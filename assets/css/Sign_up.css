@@ -1,0 +1,201 @@
+html {
+font-size: 62.5%;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5dd45df7-33f1-4274-97ea-e9c6aca69dad/7b36e997-239e-4711-8030-49c1fd3e77e5/VN-vi-20211108-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+    padding: 38px 420px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.movie__signup{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5rem;
+    display: none;
+}
+
+.movie__signup-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #291667;
+}
+
+.movie__signup-caption{
+    color:#74c69d;
+    font-weight: bold;
+    margin-bottom: 4.5rem;
+    position: relative;
+    padding-left: 12rem;
+}
+
+.movie__signup-caption::before{
+    content: "";
+    width: 10rem;
+    height: 2px;
+    background-color: #74c69d;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+}
+
+.movie__signup-social{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 6rem;
+}
+
+.movie__signup-item{
+    padding: 1.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #291667;
+    width: calc(50% - 1.5rem);
+}
+
+.movie__signup-social-icon{
+    margin-right: 1.1rem;
+}
+
+
+.movie__signup-form-label{
+    color: #291667;
+    display: inline-block;
+    margin-bottom: 1rem;
+    transform: translateX(1rem);
+    cursor: pointer;
+}
+
+.movie__signup-form-input{
+    padding: 1.5rem 2rem;
+    border: 1px solid #eee;
+    background-color: #fafbff;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    width: 100%;
+    transition: all 0.25s linear;
+}
+
+
+.movie__signup-form-input:focus{
+    background-color: white;
+    border-color: #74c69d;
+}
+
+.movie__signup-form-row{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+.movie__signup-form-row .movie__signup-form-group{
+    width: calc(50% - 1.5rem);
+}
+
+.movie__signup-form-term input{
+    display: none;
+}
+
+
+.movie__signup-form-term input:checked + label::after{
+    border-color: #74c69d;
+    background-color: #74c69d;
+}
+
+.movie__signup-form-term input:checked + label::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+.movie__signup-form-term label{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 3rem;
+    padding-left: 3.5rem;
+    margin-bottom: 5rem;
+}
+
+.movie__signup-form-term label::after{
+    content: "";
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background-color: #eee;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #ccc;
+    transition: all 0.25s linear;
+}
+
+.movie__signup-form-term label::before{
+    content: "";
+    position: absolute;
+    top: 0.2rem;
+    left: 0.9rem;
+    width: 1rem;
+    height: 0.5rem;
+    transform: rotate(-45deg);
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s linear;
+    z-index: 2;
+}
+
+.movie__signup-form-submit{
+    width: 12rem;
+    height: 6rem;
+    color: white;
+    border: 0;
+    border-radius: 2rem;
+    background-color: #74c69d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-bottom: 35px;
+    box-shadow: 0 10px 10px 0 rgba(116, 198, 157,0.5);
+}
+
+.movie__signup-already{
+    color: #291667;
+}
+
+.movie__signup-already a{
+    color: #74c69d;
+    text-decoration: none;  
+}

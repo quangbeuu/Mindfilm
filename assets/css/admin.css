@@ -1,0 +1,123 @@
+/* Đặt tên biến màu */
+:root{
+    --sub-color: #091c2d;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+    line-height: 16px;
+    height: 10000px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.manage{
+    margin: 8px 185px 0px 185px;
+}
+
+/* Start Input */
+.manage__input{
+    border: 1px solid #ccc;
+}
+
+.manage__header{
+    padding: 18px;
+    background-color: var(--sub-color);
+}
+
+.manage__title{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.manage__content{
+    margin: 40px 32px;
+}
+
+.manage__item{
+    margin-bottom: 18px;
+}
+
+.manage__name{
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.manage__box{
+    padding:5px;
+    width: 100%;
+}
+
+.manage__button{
+    width: 60px;
+    text-align: center;
+    background-color: #adc735;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.manage__button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.manage__button--orange{
+    background-color: #e77e22;
+}
+
+/* End Input */
+
+/* Start output */
+
+.manage__output{
+    margin-top: 30px;
+    overflow-x: auto;
+}
+.manage__table{
+    width: 100%;
+}
+
+.manage__table tr{
+    border: 1px solid #ccc;
+}
+
+.manage__table th{
+    font-weight: 600;
+}
+
+.manage__table td, .manage__table th{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.manage__button--yellow{
+    background-color: #f1ac45;
+}
+.manage__button--red{
+    background-color: #f15545;
+}
+
+/* End output */
+

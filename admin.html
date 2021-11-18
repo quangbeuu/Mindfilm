@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý phim</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Thư viện Font-awesome => cop tại https://cdnjs.com/libraries/font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Font Poppins của Google => https://fonts.google.com/-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Admin CSS -->
+    <link rel="stylesheet" href="./assets/css/admin.css">
+</head>
+<body>
+    <div class="manage">
+        <!-- Start phần Nhập -->
+        <div class="manage__input">
+            <div class="manage__header">
+                <p class="manage__title">Cập nhật phim mới</p>
+            </div>
+            <div class="manage__content">
+                <div class="manage__item">
+                    <h2 class="manage__name">Tên phim</h2>
+                    <input type="text" class="manage__box" id="film_name">
+                </div>
+                <div class="manage__item">
+                    <h2 class="manage__name">Loại phim</h2>
+                    <select name="flim" id="film_type" class="manage__box" onchange="listFilm()">
+                        <option value="">-- Chọn --</option>
+                        <!-- <option value="phimbo">Phim bộ</option>
+                        <option value="phimchieurap">Phim chiếu rạp</option>
+                        <option value="phimhoathinh">Phim hoạt hình</option>
+                        <option value="phimle">Phim lẻ</option> -->
+                    </select>
+                </div>
+                <div class="manage__item">
+                    <h2 class="manage__name">Link ảnh</h2>
+                    <input type="text" class="manage__box" id="film_image">
+                </div>
+                <div class="manage__item">
+                    <h2 class="manage__name">Tập số</h2>
+                    <input type="text" class="manage__box" id="film_episodes">
+                </div>
+                <div class="manage__item">
+                    <h2 class="manage__name">Link tập phim</h2>
+                    <input type="text" class="manage__box" id="film_link">
+                </div>
+                <button class="manage__button" id="add__button" onclick="addFilm()">Add</button>
+                <input type="reset" class="manage__button manage__button--orange">
+            </div>
+            <!-- End phần nhập -->
+        </div>
+
+        <!-- Start phần table -->
+        <div class="manage__output">
+            <div class="manage__header">
+                <p class="manage__title">Quản lý danh sách phim</p>
+            </div>
+            <table class="manage__table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Tên phim</th>
+                        <th>Loại phim</th>
+                        <th>Link ảnh</th>
+                        <th>Tập số</th>
+                        <th>Link tập phim</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="film_item">
+                </tbody>
+            </table>
+        </div>
+        <!-- End phần table -->
+    </div>
+
+    <script src="./assets/js/admin.js"></script>
+</body>
+</html>
