@@ -24,6 +24,7 @@ a{
 
 .movie__wrap{
     /* padding: 0 46px; */
+    /* display: none; */
 }
 
 .movie__top{
@@ -221,6 +222,11 @@ a{
     background-color: #9dff89;
 }
 
+.movie__btn--blue{
+    background-color: #4f8fbf;
+    display: none;
+}
+
 .movie__slidebar-list{
     align-self: center;
 }
@@ -233,10 +239,19 @@ a{
     color: white;
     font-size: 20px;
 }
+
+.movie__slidebar-username{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
 /* 2. Slider */
 
 .movie__slider{
-    padding: 88px 46px; 
+    padding: 88px 46px 40px 46px; 
     /* margin: 0 auto; */
     max-width: 100%;
     position: relative;
@@ -324,6 +339,15 @@ a{
 .movie__content{
     padding: 0 58px;
 }
+
+.movie__count{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .movie__box{
     margin-top: 18px;
 }
