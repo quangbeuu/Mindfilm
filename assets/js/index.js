@@ -1,52 +1,10 @@
 // 1. Đổ API sang trang html
-// c. Search
-const searchMovie = document.querySelector('#btn-search');
-const inputMovie = document.getElementById("movie__search");
-
-let allFilm = [];
-
-// fullFilm là tập chứa tất cả các film ko phân biệt thể loại
-let fullFilm = []
-
-// + Tìm kiếm khi click vào icon button
-searchMovie.addEventListener("click", (e) => {
-    e.preventDefault();
-    searchEvent();
-})
-
-// + Tìm kiếm khi gõ r ấn enter 
-inputMovie.addEventListener("keyup", (event) => {
-    if (event.keyCode === 13) {
-        event.preventDefault();
-        searchEvent()
-    }
-})
-
-function searchEvent() {
-    const searchString = document.querySelector("#movie__search").value.toLowerCase();
-    console.log(allFilm)
-
-    if (searchString !== "") {
-        const filterMovies = fullFilm.filter((film) => {
-            return film.title.toLowerCase().includes(searchString)
-        })
-        console.log(filterMovies);
-        displayFilm(filterMovies);
-    } else {
-        alert("Bạn chưa điền gì!");
-    }
-
-    let movieItem = document.querySelectorAll(".movie__item");
-    document.querySelector(".movie__count").innerHTML = `Đã tìm thấy ${movieItem.length} phim`;
-}
 
 
 // a. Đọc API
-const loadFilms = async () => {
+const loadFilms = () => {
     try {
-        const api = await fetch("https://api.apify.com/v2/key-value-stores/QubTry45OOCkTyohU/records/LATEST?fbclid=IwAR3oYxXd4dA_aVtsddh6Cprx6ySoKEFeKZp-_v0_y8iF-DBG7GhbwkXFvUw");
-        const responseApi = await api.json();
-        allFilm = responseApi.phim;
+        allFilm = data.phim;
         Object.keys(allFilm).forEach((key) => {
             allFilm[key].forEach((movie) => {
                 fullFilm.push(movie);
@@ -90,7 +48,7 @@ const displayFilm = (film) => {
                         ${filmAll[0].category.toUpperCase()}
                     </h2>
                     <p class="movie__expand">
-                        <a href="phimbo.html">
+                        <a href="${key}.html">
                             <i class="fa fa-angle-double-right"></i>
                             Xem tất cả
                         </a>
@@ -107,8 +65,10 @@ const displayFilm = (film) => {
                 console.log(movie)
                 return `
                 <div class="movie__item">
+                <a href="film.html?id={${movie.id}}">
                     <img src="${movie.imageUrl}" alt="" class="movie__image">
-                    <h1 class="movie__title">${movie.title}</h1>
+                    <h1 class="movie__title">${movie.title} - ${movie.subtitle}</h1>
+                </a>
                 </div>
                 `
             })
@@ -119,6 +79,46 @@ const displayFilm = (film) => {
     }
 }
 
+// c. Search
+const searchMovie = document.querySelector('#btn-search');
+const inputMovie = document.getElementById("movie__search");
+
+let allFilm = [];
+
+// fullFilm là tập chứa tất cả các film ko phân biệt thể loại
+let fullFilm = []
+
+// + Tìm kiếm khi click vào icon button
+searchMovie.addEventListener("click", (e) => {
+    e.preventDefault();
+    searchEvent();
+})
+
+// + Tìm kiếm khi gõ r ấn enter 
+inputMovie.addEventListener("keyup", (event) => {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        searchEvent()
+    }
+})
+
+function searchEvent() {
+    const searchString = document.querySelector("#movie__search").value.toLowerCase();
+    console.log(allFilm)
+
+    if (searchString !== "") {
+        const filterMovies = fullFilm.filter((film) => {
+            return film.title.toLowerCase().includes(searchString)
+        })
+        console.log(filterMovies);
+        displayFilm(filterMovies);
+    } else {
+        alert("Bạn chưa điền gì!");
+    }
+
+    let movieItem = document.querySelectorAll(".movie__item");
+    document.querySelector(".movie__count").innerHTML = `Đã tìm thấy ${movieItem.length} phim`;
+}
 
 
 loadFilms()

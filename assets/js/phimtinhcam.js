@@ -1,8 +1,6 @@
-const loadFilms = async() => {
+const loadFilms = () => {
     try{
-        const api = await fetch("https://api.apify.com/v2/key-value-stores/QubTry45OOCkTyohU/records/LATEST?fbclid=IwAR3oYxXd4dA_aVtsddh6Cprx6ySoKEFeKZp-_v0_y8iF-DBG7GhbwkXFvUw");
-        const responseApi = await api.json();
-        allFilm = responseApi.phim;
+        allFilm = data.phim;
         console.log(allFilm)
         displayFilm(allFilm);
     }catch(err){
@@ -11,23 +9,24 @@ const loadFilms = async() => {
     }
 }
 
-loadFilms()
+
 
 // b. Đổ lên trang html
 const displayFilm = (film) => {
-    let phimbo = film['phimbo']
-    let htmlString = phimbo
-        .map((phimbo) =>{
+    let phimtinhcam = film['phimtinhcam']
+    let htmlString = phimtinhcam
+        .map((phimtinhcam) =>{
             return `
             <div class="movie__item">
-                <img src="${phimbo.imageUrl}" alt="" class="movie__image">
-                <h1 class="movie__title">${phimbo.title}</h1>
+                <img src="${phimtinhcam.imageUrl}" alt="" class="movie__image">
+                <h1 class="movie__title">${phimtinhcam.title}</h1>
             </div>
             `
-        })
-    document.getElementById("phimbo").innerHTML = htmlString;
+        }).join("")
+    document.getElementById("phimtinhcam").innerHTML = htmlString;
 }
 
+loadFilms()
 
 // 2. Mở đóng thanh Slidebar
 

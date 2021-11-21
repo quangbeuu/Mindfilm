@@ -1,0 +1,253 @@
+.movie__info{
+    min-height: 0;
+    min-width: 0;
+}
+
+/* 1. Phần ảnh nền */
+.movie__background{
+    background-image: url(https://image.tmdb.org/t/p/original/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.movie__background::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(2,13,24,.75);
+}
+
+/* 2. Phần section */
+.movie__section{
+    display: block;
+}
+
+.movie__section-container{
+    max-width: 1152px;
+    margin: 0 auto;
+    width: auto;
+    position: relative;
+    flex-grow:1;
+}
+
+/* Cho ảnh nhảy lên */
+.moveup{
+    margin-top: -360px;
+}
+
+.movie__details{
+    display: flex;
+}
+
+
+.movie__column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+/* a. Phần bên trái */
+
+.movie__column.one-quarter-tablet{
+    flex: none;
+    width: 25%;
+}
+
+.movie__cover{
+    position: relative;
+}
+
+.movie__cover-img{
+    height: auto;
+    max-width: 100%;
+}
+
+.movie__watch-btn{
+    background-color: #dd003f;
+    border-color: #dbdbdb;
+    color: white;
+    line-height: 1.5rem;
+    display: flex;
+    margin-top: 1.5em;
+    border-width: 1px;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(0.5em - 1px) 1em;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all linear 0.1s;
+}
+
+.movie__watch-btn:hover{
+    opacity: 0.8;
+}
+
+.movie__watch-icon{
+    width: 0.9em;
+    margin-right: 1em;
+}
+
+/* Phần bên phải */
+.main{
+    padding-top: 1.8em;
+    
+}
+
+.movie__title{
+    margin-bottom: 0.7em;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 1.125px;
+}
+
+.movie__subtite{
+    /* margin-top: -1.25rem; */
+    color: #b5b5b5;
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.year{
+    color:#428bca;
+}
+
+.movie__meta{
+    margin-bottom: 1rem;
+}
+
+.movie__meta span{
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.imdb-icon{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+    margin: -0.3em 0.6em 0 0;
+}
+
+.text-bold{
+    font-weight: 700;
+}
+
+
+.movie__bookmark{
+    background-color: transparent;
+    border-color: #3298dc;
+    color: #3298dc;
+    line-height: 1.8rem;
+    display: flex;
+    margin-top: 1.3em;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(0.5em - 1px) 1em;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    transition: all linear 0.1s;
+    margin-bottom: 7rem;
+}
+
+.movie__bookmark:hover{
+    background-color: #3298dc;
+    color: #fff;
+}
+
+.bookmark-icon{
+    height: 1.3em;
+    fill: #fff;
+    margin-right: 0.5em;
+}
+
+
+.movie__subinfo{
+    margin-bottom: 1.5em;
+    /* overflow: auto; */
+}
+
+.movie__subinfo dt{
+    width: 120px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    float: left;
+    clear: left;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.movie__subinfo dd{
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.movie__intro{
+    color: #b5b5b5;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align:justify;
+}
+
+.movie__section-header{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2em 0 1.2em;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.movie__cast-list{
+    display: flex;
+}
+
+.movie__cast-item{
+    width: 100%;
+    display: inline-block;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.cast-img{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.cast-img:hover{
+    box-shadow: 0 0 0 2px #cc7b19;
+}
+
+.movie__cast-name{
+    color: #dbdbdb;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.movie__cast-character{
+    color: #7a7a7a;
+}

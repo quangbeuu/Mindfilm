@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindflix</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Thư viện Font-awesome => cop tại https://cdnjs.com/libraries/font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Font Roboto của Google => https://fonts.google.com/-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Index CSS -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <!-- Link cho ảnh lên phần URL -->
+    <link rel='shortcut icon' href='./assets/img/sublogo.png'/>
+
+    <!-- Sigin/Signup -->
+    <link rel="stylesheet" href="./assets/css/Sign_in.css">
+</head>
+<body>
+    <!-- Start Login -->
+    <div class="movie__login">
+        <div class="movie__signin">
+            <h1 class="movie__signin-heading">Sign in</h1>
+            <h2 class="movie__signin-caption">Sign in with</h2>
+            <div class="movie__signin-social">
+                <div class="movie__signin-item">
+                    <i class="fab fa-google movie__signin-social-icon"></i>
+                    <span class="movie__signin-social-text">Sign in with Google</span>
+                </div>
+                <div class="movie__signin-item">
+                    <i class="fab fa-facebook movie__signin-social-icon"></i>
+                    <span class="movie__signin-social-text">Sign in with Facebook</span>
+                </div>
+            </div>
+            <form class="movie__signin-form" autocomplete="off">
+                <div class="movie__signin-form-group">
+                    <label for="username" class="movie__signin-form-label">Username</label>
+                    <input type="text" class="movie__signin-form-input" id="username" required placeholder="Username">
+                    <p class="error"></p>
+                </div>
+                <div class="movie__signin-form-group">
+                    <label for="password" class="movie__signin-form-label">Password</label>
+                    <input type="password" class="movie__signin-form-input" id="password" required minlength="10" placeholder="Password">
+                    <p class="error"></p>
+                </div>
+                <div class="movie__signin-form-term">
+                    <input type="checkbox" name="" id="term">
+                    <label for="term">Remember me</label>
+                </div>
+                <button class="movie__signin-form-submit" type="submit required">
+                    Sign in
+                </button>
+                <p class="movie__signin-already">New account? <a href="#" class="sign-in">Sign up now</a></p>
+            </form>
+        </div>
+        
+        <div class="movie__signup">
+            <h1 class="movie__signup-heading">Sign up</h1>
+            <h2 class="movie__signup-caption">Sign up with</h2>
+            <div class="movie__signup-social">
+                <div class="movie__signup-item">
+                    <i class="fab fa-google movie__signup-social-icon"></i>
+                    <span class="movie__signup-social-text">Sign up with Google</span>
+                </div>
+                <div class="movie__signup-item">
+                    <i class="fab fa-facebook movie__signup-social-icon"></i>
+                    <span class="movie__signup-social-text">Sign up with Facebook</span>
+                </div>
+            </div>
+            <form class="movie__signup-form" autocomplete="off">
+                <div class="movie__signup-form-row">
+                    <div hdiv class="movie__signup-form-group">
+                        <label for="username-signup" class="movie__signup-form-label">Username</label>
+                        <input type="text" class="movie__signup-form-input" id="username-signup" required placeholder="username">
+                        <p class="error"></p>
+                    </div>
+                    <div class="movie__signup-form-group">
+                        <label for="email-signup" class="movie__signup-form-label">Email</label>
+                        <input type="email" class="movie__signup-form-input" id="email-signup" required placeholder="Email">
+                        <p class="error"></p>
+                    </div>
+                </div>
+                <div class="movie__signup-form-group">
+                    <label for="password-signup" class="movie__signup-form-label">Password</label>
+                    <input type="number" class="movie__signup-form-input" id="password-signup" required minlength="6" placeholder="Password">
+                    <p class="error"></p>
+                </div>
+                <div class="movie__signup-form-term">
+                    <input type="checkbox" name="" id="term-signup">
+                    <label for="term">I have read and agree with term</label>
+                </div>
+                <button class="movie__signup-form-submit" type="submit required">
+                    Sign up
+                </button>
+                <p class="movie__signup-already">Already signiave an account ? <a href="#" class="sign-up">Signin</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- End Login -->
+    <div class="movie__wrap"> 
+        <!-- Start Thanh Menu -->
+        <div class="movie__top">
+            <div class="movie__logo">
+                <a href="index.html">
+                    <img src="./assets/img/logo.png" alt="Logo" class="movie__logo-image">
+                </a>
+            </div>
+            <ul class="movie__menu">
+                <li class="movie__menu-item">
+                    <a href="index.html" class="movie__menu-link">Trang chủ</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimbo.html" class="movie__menu-link">Phim bộ</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimchieurap.html" class="movie__menu-link">Phim chiếu rạp</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimhoathinh.html" class="movie__menu-link">Phim hoạt hình</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimle.html" class="movie__menu-link">Phim lẻ</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimle.html" class="movie__menu-link">About us</a>
+                </li>
+            </ul>
+            <div class="movie__menu-right">
+                <button class="movie__menu-btn signin-btn sigin-menu">Đăng nhập</button>
+                <div class="movie__menu-search movie__search-wrap">
+                    <i class="movie__menu-icon fas fa-search"></i>
+                    <div class="movie__search-box">
+                        <div class="movie__slidebar-input">
+                            <input type="text" placeholder="Nhập tên phim..." class="movie__slidebar-input-box" id="movie__search">
+                            <div class="movie__slidebar-search">
+                                <i class="fa fa-search" id="btn-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie__menu-search">
+                    <i class="movie__menu-icon fa fa-bookmark"></i>
+                </div>
+                <div class="movie__menu-search" id="movie__menu-open">
+                    <i class="movie__menu-icon fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <!-- End Thanh Menu -->
+
+        <!-- Start Slidebar -->
+        <div class="movie__slidebar-container" id="movie__slidebar-container">
+            <div class="movie__slidebar" id="movie__slidebar">
+                <div class="movie__slidebar-close" id="movie__slidebar-close">
+                    <i class="fa fa-times movie__slidebar-close-icon"></i>
+                </div>
+                <div class="movie__slidebar-wrap">
+                    <div class="movie__logo movie__slidebar-logo">
+                        <a href="index.html">
+                            <img src="./assets/img/logo.png" alt="Logo" class="movie__logo-image">
+                        </a>
+                    </div>
+                    <div class="movie__slidebar-input">
+                        <input type="text" placeholder="Nhập tên phim..." class="movie__slidebar-input-box">
+                        <div class="movie__slidebar-search">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="movie__slidebar-btn">
+                        <button class="movie__menu-btn movie__slidebar-button signin-btn signin-slidebar">Đăng nhập</button>
+                        <button class="movie__menu-btn movie__slidebar-button movie__btn--green signup-btn">Đăng ký</button>
+                        <div class="movie__slidebar-username"></div>
+                        <button class="movie__menu-btn movie__slidebar-button movie__btn--blue signout-btn">Đăng xuất</button>
+                    </div>
+                    <ul class="movie__slidebar-list">
+                        <li class="movie__slidebar-item">
+                            <a href="phimbo.html" class="movie__slidebar-link">
+                                <i class="fas fa-film"></i>
+                                Phim bộ
+                            </a>
+                        </li>
+                        <li class="movie__slidebar-item">
+                            <a href="phimchieurap.html" class="movie__slidebar-link">
+                                <i class="fas fa-tape"></i>
+                                Phim chiếu rạp
+                            </a>
+                        </li>
+                        <li class="movie__slidebar-item">
+                            <a href="phimhoathinh.html" class="movie__slidebar-link">
+                                <i class="fas fa-ice-cream"></i>
+                                Phim hoạt hình
+                            </a>
+                        </li>
+                        <li class="movie__slidebar-item">
+                            <a href="phimle.html" class="movie__slidebar-link">
+                                <i class="fa fa-theater-masks"></i>
+                                Phim lẻ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Slidebar -->
+
+        
+
+        <!-- Start Footer -->
+        <footer class="footer">
+            <div class="footer__left">
+                <div class="movie__logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.png" alt="Logo" class="movie__logo-image">
+                    </a>
+                </div>
+                <div class="footer__social">
+                    <div class="footer__icon">
+                        <a href="" class="footer__icon-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="footer__icon">
+                        <a href="" class="footer__icon-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="footer__icon">
+                        <a href="" class="footer__icon-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__mid">
+                <div class="footer__mid-icon">
+                    <div class="footer__icon">
+                        <a href="" class="footer__icon-link">
+                            <i class="fas fa-moon"></i>
+                        </a>
+                    </div>
+                    <div class="footer__icon">
+                        <a href="" class="footer__icon-link">
+                            <i class="fas fa-sun"></i>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="footer__content">Thông tin</h3>
+                <ul class="footer__content-wrap">
+                    <li>
+                        <a href="" class="footer__content-link">FAQ</a>
+                    </li> 
+                    <li>
+                        <a href="" class="footer__content-link">About</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer__content-link">Điều khoản</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__right">
+                <h3 class="footer__content">Danh sách phim</h3>
+                <ul class="footer__content-wrap">
+                    <li>
+                        <a href="phimbo.html" class="footer__content-link">
+                            Phim bộ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="phimchieurap.html" class="footer__content-link">
+                            Phim chiếu rạp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="phimhoathinh.html" class="footer__content-link">
+                            Phim hoạt hình
+                        </a>
+                    </li>
+                    <li>
+                        <a href="phimle.html" class="footer__content-link">
+                            Phim lẻ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/Sign_in.js"></script>
+</body>
+</html>

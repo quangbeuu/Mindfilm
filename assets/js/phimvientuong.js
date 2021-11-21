@@ -13,17 +13,17 @@ const loadFilms = () => {
 
 // b. Đổ lên trang html
 const displayFilm = (film) => {
-    let phimhoathinh = film['phimhoathinh']
-    let htmlString = phimhoathinh
-        .map((phimhoathinh) =>{
+    let phimvientuong = film['phimvientuong']
+    let htmlString = phimvientuong
+        .map((phimvientuong) =>{
             return `
             <div class="movie__item">
-                <img src="${phimhoathinh.imageUrl}" alt="" class="movie__image">
-                <h1 class="movie__title">${phimhoathinh.title}</h1>
+                <img src="${phimvientuong.imageUrl}" alt="" class="movie__image">
+                <h1 class="movie__title">${phimvientuong.title}</h1>
             </div>
             `
         }).join("")
-    document.getElementById("phimhoathinh").innerHTML = htmlString;
+    document.getElementById("phimvientuong").innerHTML = htmlString;
 }
 
 loadFilms()

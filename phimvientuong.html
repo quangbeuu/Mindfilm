@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phim lẻ</title>
+    <title>Phim viễn tưởng</title>
     <!-- CSS reset -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <!-- Thư viện Font-awesome => cop tại https://cdnjs.com/libraries/font-awesome-->
@@ -35,16 +35,19 @@
                     <a href="index.html" class="movie__menu-link">Trang chủ</a>
                 </li>
                 <li class="movie__menu-item">
-                    <a href="phimbo.html" class="movie__menu-link">Phim bộ</a>
+                    <a href="phimtinhcam.html" class="movie__menu-link">Phim tình cảm</a>
                 </li>
                 <li class="movie__menu-item">
-                    <a href="phimchieurap.html" class="movie__menu-link">Phim chiếu rạp</a>
+                    <a href="phimhanhdong.html" class="movie__menu-link">Phim hành động</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimkinhdi.html" class="movie__menu-link">Phim kinh dị</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimvientuong.html" class="movie__menu-link">Phim viễn tượng</a>
                 </li>
                 <li class="movie__menu-item">
                     <a href="phimhoathinh.html" class="movie__menu-link">Phim hoạt hình</a>
-                </li>
-                <li class="movie__menu-item">
-                    <a href="phimle.html" class="movie__menu-link">Phim lẻ</a>
                 </li>
             </ul>
             <div class="movie__menu-right">
@@ -86,27 +89,33 @@
                     </div>
                     <ul class="movie__slidebar-list">
                         <li class="movie__slidebar-item">
-                            <a href="phimbo.html" class="movie__slidebar-link">
+                            <a href="phimtinhcam.html" class="movie__slidebar-link">
                                 <i class="fas fa-film"></i>
-                                Phim bộ
+                                Phim tình cảm 
                             </a>
                         </li>
                         <li class="movie__slidebar-item">
-                            <a href="phimchieurap.html" class="movie__slidebar-link">
+                            <a href="phimhanhdong.html" class="movie__slidebar-link">
                                 <i class="fas fa-tape"></i>
-                                Phim chiếu rạp
+                                Phim hành động
+                            </a>
+                        </li>
+                        <li class="movie__slidebar-item">
+                            <a href="phimkinhdi.html" class="movie__slidebar-link">
+                                <i class="fas fa-ice-cream"></i>
+                                Phim kinh dị
+                            </a>
+                        </li>
+                        <li class="movie__slidebar-item">
+                            <a href="phimvientuong.html" class="movie__slidebar-link">
+                                <i class="fa fa-theater-masks"></i>
+                                Phim viễn tưởng 
                             </a>
                         </li>
                         <li class="movie__slidebar-item">
                             <a href="phimhoathinh.html" class="movie__slidebar-link">
-                                <i class="fas fa-ice-cream"></i>
-                                Phim hoạt hình
-                            </a>
-                        </li>
-                        <li class="movie__slidebar-item">
-                            <a href="phimle.html" class="movie__slidebar-link">
                                 <i class="fa fa-theater-masks"></i>
-                                Phim lẻ
+                                Phim hoạt hình 
                             </a>
                         </li>
                     </ul>
@@ -118,11 +127,11 @@
         <!-- Start Content -->
         <div class="movie__content">
             <div class="content__header">
-                <h2 class="content__text">Phim lẻ</h2>
+                <h2 class="content__text">Phim viễn tưởng</h2>
                 <p class="content__news">Mới cập nhật</p>
             </div>
             <div class="movie__box">
-                <div class="movie__list" id="phimle">
+                <div class="movie__list" id="phimvientuong">
                     <div class="movie__item">
                         <img src="" alt="" class="movie__image">
                         <h1 class="movie__title"></h1>
@@ -189,13 +198,23 @@
                 <h3 class="footer__content">Danh sách phim</h3>
                 <ul class="footer__content-wrap">
                     <li>
-                        <a href="phimbo.html" class="footer__content-link">
-                            Phim bộ
+                        <a href="phimtinhcam.html" class="footer__content-link">
+                            Phim tình cảm
                         </a>
                     </li>
                     <li>
-                        <a href="phimchieurap.html" class="footer__content-link">
-                            Phim chiếu rạp
+                        <a href="phimhanhdong.html" class="footer__content-link">
+                            Phim hành động
+                        </a>
+                    </li>
+                    <li>
+                        <a href="phimkinhdi.html" class="footer__content-link">
+                            Phim kinh dị
+                        </a>
+                    </li>
+                    <li>
+                        <a href="phimvientuong.html" class="footer__content-link">
+                            Phim viễn tưởng
                         </a>
                     </li>
                     <li>
@@ -203,15 +222,11 @@
                             Phim hoạt hình
                         </a>
                     </li>
-                    <li>
-                        <a href="phimle.html" class="footer__content-link">
-                            Phim lẻ
-                        </a>
-                    </li>
                 </ul>
             </div>
         </footer>
         <!-- End Footer -->
 </body>
-<script src="./assets/js/phimle.js"></script>
+<script src="./assets/js/data.js"></script>
+<script src="./assets/js/phimvientuong.js"></script>
 </html>
