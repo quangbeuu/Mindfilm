@@ -65,7 +65,7 @@ const displayFilm = (film) => {
                 console.log(movie)
                 return `
                 <div class="movie__item">
-                <a href="film.html?id={${movie.id}}">
+                <a href="film.html?id=${movie.id}">
                     <img src="${movie.imageUrl}" alt="" class="movie__image">
                     <h1 class="movie__title">${movie.title} - ${movie.subtitle}</h1>
                 </a>

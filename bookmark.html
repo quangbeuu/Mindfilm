@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dune</title>
+    <title>Bookmark</title>
     <!-- CSS reset -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <!-- Thư viện Font-awesome => cop tại https://cdnjs.com/libraries/font-awesome-->
@@ -13,22 +12,17 @@
     <!-- Font Roboto của Google => https://fonts.google.com/-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
     <!-- Index CSS -->
     <link rel="stylesheet" href="./assets/css/index.css">
 
     <!-- Link cho ảnh lên phần URL -->
-    <link rel='shortcut icon' href='./assets/img/sublogo.png' />
+    <link rel='shortcut icon' href='./assets/img/sublogo.png'/>
 
     <!-- Sigin/Signup -->
     <link rel="stylesheet" href="./assets/css/Sign_in.css">
-
-    <!-- Film CSS -->
-    <link rel="stylesheet" href="./assets/css/film.css">
 </head>
-
 <body>
     <!-- Start Login -->
     <div class="movie__login">
@@ -53,8 +47,7 @@
                 </div>
                 <div class="movie__signin-form-group">
                     <label for="password" class="movie__signin-form-label">Password</label>
-                    <input type="password" class="movie__signin-form-input" id="password" required minlength="10"
-                        placeholder="Password">
+                    <input type="password" class="movie__signin-form-input" id="password" required minlength="10" placeholder="Password">
                     <p class="error"></p>
                 </div>
                 <div class="movie__signin-form-term">
@@ -67,7 +60,7 @@
                 <p class="movie__signin-already">New account? <a href="#" class="sign-in">Sign up now</a></p>
             </form>
         </div>
-
+        
         <div class="movie__signup">
             <h1 class="movie__signup-heading">Sign up</h1>
             <h2 class="movie__signup-caption">Sign up with</h2>
@@ -85,21 +78,18 @@
                 <div class="movie__signup-form-row">
                     <div hdiv class="movie__signup-form-group">
                         <label for="username-signup" class="movie__signup-form-label">Username</label>
-                        <input type="text" class="movie__signup-form-input" id="username-signup" required
-                            placeholder="username">
+                        <input type="text" class="movie__signup-form-input" id="username-signup" required placeholder="username">
                         <p class="error"></p>
                     </div>
                     <div class="movie__signup-form-group">
                         <label for="email-signup" class="movie__signup-form-label">Email</label>
-                        <input type="email" class="movie__signup-form-input" id="email-signup" required
-                            placeholder="Email">
+                        <input type="email" class="movie__signup-form-input" id="email-signup" required placeholder="Email">
                         <p class="error"></p>
                     </div>
                 </div>
                 <div class="movie__signup-form-group">
                     <label for="password-signup" class="movie__signup-form-label">Password</label>
-                    <input type="number" class="movie__signup-form-input" id="password-signup" required minlength="6"
-                        placeholder="Password">
+                    <input type="number" class="movie__signup-form-input" id="password-signup" required minlength="6" placeholder="Password">
                     <p class="error"></p>
                 </div>
                 <div class="movie__signup-form-term">
@@ -109,14 +99,13 @@
                 <button class="movie__signup-form-submit" type="submit required">
                     Sign up
                 </button>
-                <p class="movie__signup-already">Already signiave an account ? <a href="#" class="sign-up">Signin</a>
-                </p>
+                <p class="movie__signup-already">Already signiave an account ? <a href="#" class="sign-up">Signin</a></p>
             </form>
         </div>
     </div>
 
     <!-- End Login -->
-    <div class="movie__wrap">
+    <div class="movie__wrap"> 
         <!-- Start Thanh Menu -->
         <div class="movie__top">
             <div class="movie__logo">
@@ -129,19 +118,22 @@
                     <a href="index.html" class="movie__menu-link">Trang chủ</a>
                 </li>
                 <li class="movie__menu-item">
-                    <a href="phimbo.html" class="movie__menu-link">Phim bộ</a>
+                    <a href="phimtinhcam.html" class="movie__menu-link">Phim tình cảm</a>
                 </li>
                 <li class="movie__menu-item">
-                    <a href="phimchieurap.html" class="movie__menu-link">Phim chiếu rạp</a>
+                    <a href="phimhanhdong.html" class="movie__menu-link">Phim hành động</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimkinhdi.html" class="movie__menu-link">Phim kinh dị</a>
+                </li>
+                <li class="movie__menu-item">
+                    <a href="phimvientuong.html" class="movie__menu-link">Phim viễn tưỡng</a>
                 </li>
                 <li class="movie__menu-item">
                     <a href="phimhoathinh.html" class="movie__menu-link">Phim hoạt hình</a>
                 </li>
                 <li class="movie__menu-item">
-                    <a href="phimle.html" class="movie__menu-link">Phim lẻ</a>
-                </li>
-                <li class="movie__menu-item">
-                    <a href="phimle.html" class="movie__menu-link">About us</a>
+                    <a href="about-us.html" class="movie__menu-link">About us</a>
                 </li>
             </ul>
             <div class="movie__menu-right">
@@ -150,8 +142,7 @@
                     <i class="movie__menu-icon fas fa-search"></i>
                     <div class="movie__search-box">
                         <div class="movie__slidebar-input">
-                            <input type="text" placeholder="Nhập tên phim..." class="movie__slidebar-input-box"
-                                id="movie__search">
+                            <input type="text" placeholder="Nhập tên phim..." class="movie__slidebar-input-box" id="movie__search">
                             <div class="movie__slidebar-search">
                                 <i class="fa fa-search" id="btn-search"></i>
                             </div>
@@ -187,37 +178,40 @@
                         </div>
                     </div>
                     <div class="movie__slidebar-btn">
-                        <button class="movie__menu-btn movie__slidebar-button signin-btn signin-slidebar">Đăng
-                            nhập</button>
-                        <button class="movie__menu-btn movie__slidebar-button movie__btn--green signup-btn">Đăng
-                            ký</button>
+                        <button class="movie__menu-btn movie__slidebar-button signin-btn signin-slidebar">Đăng nhập</button>
+                        <button class="movie__menu-btn movie__slidebar-button movie__btn--green signup-btn">Đăng ký</button>
                         <div class="movie__slidebar-username"></div>
-                        <button class="movie__menu-btn movie__slidebar-button movie__btn--blue signout-btn">Đăng
-                            xuất</button>
+                        <button class="movie__menu-btn movie__slidebar-button movie__btn--blue signout-btn">Đăng xuất</button>
                     </div>
                     <ul class="movie__slidebar-list">
                         <li class="movie__slidebar-item">
-                            <a href="phimbo.html" class="movie__slidebar-link">
+                            <a href="phimtinhcam.html" class="movie__slidebar-link">
                                 <i class="fas fa-film"></i>
-                                Phim bộ
+                                Phim tình cảm
                             </a>
                         </li>
                         <li class="movie__slidebar-item">
-                            <a href="phimchieurap.html" class="movie__slidebar-link">
+                            <a href="phimhanhdong.html" class="movie__slidebar-link">
                                 <i class="fas fa-tape"></i>
-                                Phim chiếu rạp
+                                Phim hành động
+                            </a>
+                        </li>
+                        <li class="movie__slidebar-item">
+                            <a href="phimkinhdi.html" class="movie__slidebar-link">
+                                <i class="fas fa-ice-cream"></i>
+                                Phim kinh dị
+                            </a>
+                        </li>
+                        <li class="movie__slidebar-item">
+                            <a href="phimvientuong.html" class="movie__slidebar-link">
+                                <i class="fa fa-theater-masks"></i>
+                                Phim viễn tưởng
                             </a>
                         </li>
                         <li class="movie__slidebar-item">
                             <a href="phimhoathinh.html" class="movie__slidebar-link">
-                                <i class="fas fa-ice-cream"></i>
-                                Phim hoạt hình
-                            </a>
-                        </li>
-                        <li class="movie__slidebar-item">
-                            <a href="phimle.html" class="movie__slidebar-link">
                                 <i class="fa fa-theater-masks"></i>
-                                Phim lẻ
+                                Phim hoạt hình
                             </a>
                         </li>
                     </ul>
@@ -226,112 +220,9 @@
         </div>
         <!-- End Slidebar -->
 
-        <!-- Start Movie info -->
-        <div class="movie__info" id="movie__info">
-            <div class="movie__background">
-            </div>
-            <!-- <div class="movie__section">
-                <div class="movie__section-container moveup">
-                    <div class="movie__details">
-                        <div class="movie__column one-quarter-tablet">
-                            <div class="movie__cover">
-                                <img src="https://image.tmdb.org/t/p/w342/d5NXSklXo0qyIYkgV94XAgMIckC.jpg" alt="img"
-                                    class="movie__cover-img">
-                            </div>
-                            <a href="#" class="movie__watch-btn">
-                                <i class="movie__watch-icon fa fa-play"></i>
-                                Xem phim
-                            </a>
-                        </div>
-                        <div class="movie__column main">
-                            <h1 class="movie__title">Dune</h1>
-                            <h2 class="movie__subtite">Hành tinh cát (<span class="year">2021</span>)</h2>
-                            <div class="movie__meta">
-                                <span>2 giờ 35 phút</span>
-                            </div>
-                            <div class="movie__meta">
-                                <span class="imdb-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                                        <path
-                                            d="M44 13H4c-2.2 0-4 1.8-4 4v16c0 2.2 1.8 4 4 4h40c2.2 0 4-1.8 4-4V17c0-2.2-1.8-4-4-4z"
-                                            fill="#ffc107"></path>
-                                        <path
-                                            d="M28.102 18h-3.704v13.102h3.704c2 0 2.796-.403 3.296-.704.602-.398.903-1.097.903-1.796v-7.903c0-.898-.403-1.699-.903-2-.796-.5-1.097-.699-3.296-.699zm.699 10.3c0 .598-.7.598-1.301.598V20c.602 0 1.3 0 1.3.602zM33.8 18v13.3h2.802s.199-.902.398-.698c.398 0 1.5.597 2.2.597.698 0 1.1 0 1.5-.199.6-.398.698-.7.698-1.3v-7.802c0-1.097-1.097-1.796-2-1.796-.898 0-1.796.597-2.199.898v-3zm3.598 4.2c0-.4 0-.598.403-.598.199 0 .398.199.398.597v6.602c0 .398 0 .597-.398.597-.2 0-.403-.199-.403-.597zM22.7 31.3V18h-4.4l-.8 6.3-1.102-6.3h-4v13.3h2.903v-7.402l1.3 7.403h2l1.297-7.403v7.403zM7.602 18h3.097v13.3H7.602z"
-                                            fill="#263238"></path>
-                                    </svg>
-                                </span>
-                                <span class="text-bold">8.3</span>
-                            </div>
-                            <button class="movie__bookmark">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="bookmark-icon">
-                                    <path
-                                        d="M368 224H224V80c0-8.84-7.16-16-16-16h-32c-8.84 0-16 7.16-16 16v144H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h144v144c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V288h144c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z">
-                                    </path>
-                                </svg>
-                                Bộ sưu tập
-                            </button>
-                            <dl class="movie__subinfo">
-                                <dt>Đạo diễn</dt>
-                                <dd>Denis Villeneuve</dd>
-                                <dt>Quốc gia</dt>
-                                <dd>Canada, Mỹ</dd>
-                                <dt>Khởi chiếu</dt>
-                                <dd>9/15/2021</dd>
-                            </dl>
-                            <div class="movie__intro">
-                                Bộ phim theo chân nhân vật chính là Paul Atreides - con trai của Leto Atreides (người cai trị
-                                hành tinh đại dương Caladan và là người được hoàng đế Pafishah Shaddam IV giao nhiêm vụ quản lý
-                                hành tịnh Arrakis sa mạc khắc nghiệt hay thường được biết đến với tên gọi DUNE). Tại đây, tồn
-                                tại một vật chất quý giá "the spices" (gia vị) - thứ thần dược giúp kéo dài sự sống và tăng
-                                cường trí lực cho con người. Chính vì điều này, gia tộc Atreides trở thành mục tiêu tấn công của
-                                nhiều gia tộc khác trong đó có nhà Harkonnen.
-                            </div>
-                            <div class="movie__section-header">Diễn viên</div>
-                            <div class="movie__cast">
-                                <div class="movie__cast-list">
-                                    <div class="movie__cast-item">
-                                        <div class="cast-img">
-                                            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/8jNFfNmqHVqLHnGnxgu7y8xgRIa.jpg" alt="cast1">
-                                        </div>
-                                        <p class="movie__cast-name">Timothée Chalamet</p>
-                                        <p class="movie__cast-character">Paul Atreides</p>
-                                    </div>
-                                    <div class="movie__cast-item">
-                                        <div class="cast-img">
-                                            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/6NRlV9oUipeak7r00V6k73Jb7we.jpg" alt="cast2">
-                                        </div>
-                                        <p class="movie__cast-name">Rebecca Ferguson</p>
-                                        <p class="movie__cast-character">Lady Jessica</p>
-                                    </div>
-                                    <div class="movie__cast-item">
-                                        <div class="cast-img">
-                                            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/dW5U5yrIIPmMjRThR9KT2xH6nTz.jpg" alt="cast3">
-                                        </div>
-                                        <p class="movie__cast-name">Oscar Isaac</p>
-                                        <p class="movie__cast-character">Duke Leto Atreides</p>
-                                    </div>
-                                    <div class="movie__cast-item">
-                                        <div class="cast-img">
-                                            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/r3A7ev7QkjOGocVn3kQrJ0eOouk.jpg" alt="cast4">
-                                        </div>
-                                        <p class="movie__cast-name">Zendaya</p>
-                                        <p class="movie__cast-character">Chani</p>
-                                    </div>
-                                    <div class="movie__cast-item">
-                                        <div class="cast-img">
-                                            <img src="https://image.tmdb.org/t/p/w138_and_h175_face/6dEFBpZH8C8OijsynkSajQT99Pb.jpg" alt="cast5">
-                                        </div>
-                                        <p class="movie__cast-name">Jason Momoa</p>
-                                        <p class="movie__cast-character">Duncan Idaho</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+        <div class="movie__bookmark">
+            <h2 class="movie__bookmark-header">Bookmark của bạn</h2>
         </div>
-        <!-- End Movie info -->
 
         <!-- Start Footer -->
         <footer class="footer">
@@ -377,7 +268,7 @@
                 <ul class="footer__content-wrap">
                     <li>
                         <a href="" class="footer__content-link">FAQ</a>
-                    </li>
+                    </li> 
                     <li>
                         <a href="" class="footer__content-link">About</a>
                     </li>
@@ -391,23 +282,28 @@
                 <h3 class="footer__content">Danh sách phim</h3>
                 <ul class="footer__content-wrap">
                     <li>
-                        <a href="phimbo.html" class="footer__content-link">
-                            Phim bộ
+                        <a href="phimtinhcam.html" class="footer__content-link">
+                            Phim tình cảm
                         </a>
                     </li>
                     <li>
-                        <a href="phimchieurap.html" class="footer__content-link">
-                            Phim chiếu rạp
+                        <a href="phimhanhdong.html" class="footer__content-link">
+                            Phim hành động
+                        </a>
+                    </li>
+                    <li>
+                        <a href="phimkinhdi.html" class="footer__content-link">
+                            Phim kinh dị
+                        </a>
+                    </li>
+                    <li>
+                        <a href="phimvientuong.html" class="footer__content-link">
+                            Phim viễn tưởng
                         </a>
                     </li>
                     <li>
                         <a href="phimhoathinh.html" class="footer__content-link">
                             Phim hoạt hình
-                        </a>
-                    </li>
-                    <li>
-                        <a href="phimle.html" class="footer__content-link">
-                            Phim lẻ
                         </a>
                     </li>
                 </ul>
@@ -416,9 +312,6 @@
         <!-- End Footer -->
     </div>
     <script src="./assets/js/data.js"></script>
-    <script src="./assets/js/film.js"></script>
-    <!-- <script src="./assets/js/index.js"></script> -->
-    <script src="./assets/js/Sign_in.js"></script>
+    
 </body>
-
 </html>

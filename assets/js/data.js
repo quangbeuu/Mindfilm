@@ -2,7 +2,7 @@ let data = {
     "phim": {
         "phimtinhcam": [
             {   
-                "id":1,
+                "id":11,
                 "background": "https://image.tmdb.org/t/p/original/jiLJN9drlf3hmNNZ2knfePVmaOG.jpg",
                 "trailer": "https://www.youtube.com/watch?v=LNYse-KgaQ8",
                 "category": "Phim tình cảm",
@@ -43,7 +43,7 @@ let data = {
                 ]
             },
             {   
-                "id": 2,
+                "id": 12,
                 "background": "https://image.tmdb.org/t/p/original/2avhn5tACIdOp9F5EhNytbChJib.jpg",
                 "trailer": "https://www.youtube.com/watch?v=z66fazyp3-M",
                 "category": "Phim tình cảm",
@@ -85,7 +85,7 @@ let data = {
                 ]
             },
             {   
-            "id": 3,
+            "id": 13,
             "background": "https://image.tmdb.org/t/p/original/63xBsC6u54uJggUd7mntwB6RuaN.jpg",
             "trailer": "https://www.youtube.com/watch?v=2CFeVRhzi_g&t=15s",
             "category": "Phim tình cảm",
@@ -121,7 +121,7 @@ let data = {
             ]
         },
         {   
-            "id": 4,
+            "id": 14,
             "background": "https://image.tmdb.org/t/p/original/iW74tZ8y2qobdpt4J9UQ71sw8q7.jpg",
             "trailer": "https://www.youtube.com/watch?v=lptctjAT-Mk",
             "category": "Phim tình cảm",
@@ -162,7 +162,7 @@ let data = {
             ]
         },
         {   
-            "id": 5,
+            "id": 15,
             "background": "https://image.tmdb.org/t/p/original/cPLtnxTlFpCIyH6AkGNuGCluvY1.jpg",
             "trailer": "https://www.youtube.com/watch?v=xJCTxUuu3js",
             "category": "Phim tình cảm",
@@ -203,7 +203,7 @@ let data = {
             ]
         },
         {   
-            "id": 6,
+            "id": 16,
             "background": "https://image.tmdb.org/t/p/original/dvd330SU63LGyLf7WMKTMgJIl53.jpg",
             "trailer": "https://www.youtube.com/watch?v=CfXzd8fgy6Q",
             "category": "Phim tình cảm",
@@ -244,7 +244,7 @@ let data = {
             ]
         },
         {   
-            "id": 7,
+            "id": 17,
             "background": "https://image.tmdb.org/t/p/original/dvd330SU63LGyLf7WMKTMgJIl53.jpg",
             "trailer": "https://www.youtube.com/watch?v=QudoMSz0e6s",
             "category": "Phim tình cảm",
@@ -285,7 +285,7 @@ let data = {
             ]
         },
         {   
-            "id": 8,
+            "id": 18,
             "background": "https://image.tmdb.org/t/p/original/o3Htmlg6BfNs8Ew7yjsRzVnYSEs.jpg",
             "trailer": "https://www.youtube.com/watch?v=eXMjTXL2Vks",
             "category": "Phim tình cảm",
@@ -325,10 +325,964 @@ let data = {
                 },
             ]
         },
+        {   
+            "id": 19,
+            "background": "https://image.tmdb.org/t/p/original/8ruYtKJf0uHnwsLr8r83rs3h0CP.jpg",
+            "trailer": "https://www.youtube.com/watch?v=NeaHNQJ1kCo&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=10",
+            "category": "Phim tình cảm",
+            "title": "Itaewon Class",
+            "subtitle": "Tầng lớp Itaewon",
+            "year": 2020,
+            "imdb": 8.3,
+            "nation": "Hàn Quốc",
+            "release": "31/1/2020",
+            "intro": "Tại một khu phố nhộn nhịp của Seoul, một cựu tù nhân và bạn bè mình chiến đấu với đối thủ khó nhằn để biến tham vọng quán bar đường phố của họ thành hiện thực.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/uW91bKQhdkwPLAE2lJJkY5xdyJg.jpg",
+            "cast": [
+                {   
+                    "name": "Park Seo-jun",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/k1ALgZkOApYt7PIUBkUitmknXQC.jpg",
+                    "character":"Park Sae Roy"
+                },
+                {   
+                    "name": "Kim Da-mi",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/tpb0eZLDvIaBVNLXFpxXAdPxooo.jpg",
+                    "character":"Jo Yi Seo"
+                },
+                {
+                    "name": "Kwon Na-ra",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/4U0cNinwOf7DdsBYA3BFi7arDmz.jpg",
+                    "character":"Oh Soo Ah"
+                },
+                {
+                    "name": "You Jae-myeong",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/27OwsiC3j37mTpBZ6AjiNfHdNC.jpg",
+                    "character":"Jang Dae Hee"
+                },
+                {
+                    "name": "Ahn Bo-hyun",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/uYIhMUSyhLkSZIFpPKEjDh6IRXm.jpg",
+                    "character":"Jang Geun Won"
+                },
+            ]
+        },
+        {   
+            "id": 110,
+            "background": "https://image.tmdb.org/t/p/original/qjhcTGnjxYJqwBGlDzZkYWmne6e.jpg",
+            "trailer": "https://www.youtube.com/watch?v=-1Ao7B3e78I&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=20",
+            "category": "Phim tình cảm",
+            "title": "To All the Boys: Always and Forever",
+            "subtitle": "Những chàng trai năm ấy: Mãi yêu",
+            "year": 2021,
+            "imdb": 6.5,
+            "nation": "Mỹ",
+            "release": "12/2/2021",
+            "intro": "Năm cuối cấp ba là tâm điểm khi Lara Jean trở về sau chuyến du lịch Hàn Quốc cùng gia đình và cân nhắc kế hoạch học đại học của mình – có và không có Peter.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/iepqdM52f4w75fNcvgRF5QoIAjm.jpg",
+            "cast": [
+                {   
+                    "name": "Lana Condor",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/vWn27Fk2GLwH7o9fBG9hBWZI6OR.jpg",
+                    "character":"Lara Jean Song Covey"
+                },
+                {   
+                    "name": "Noah Centineo",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/p1bcst401RyxfDGykx2iQLI7CV5.jpg",
+                    "character":"Peter Kavinsky"
+                },
+                {
+                    "name": "Janel Parrish",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/vDaJts4XQgE4BCczH6eC5epqAlY.jpg",
+                    "character":"Margot Song Covey"
+                },
+                {
+                    "name": "Anna Cathcart",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/h9cZbh56gyCOrpC5SPFwwQwsLdj.jpg",
+                    "character":'Katherine "Kitty" Song Covey'
+                },
+                {
+                    "name": "Ross Butler",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/asJ1bchERNBwcWS3Do7xSaYNOmX.jpg",
+                    "character":"Trevor Pike"
+                },
+            ]
+        },
+        {   
+            "id": 111,
+            "background": "https://image.tmdb.org/t/p/original/hxcJml29GRZTa12ra8MXHUk9RDl.jpg",
+            "trailer": "https://www.youtube.com/watch?v=-1Ao7B3e78I&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=20",
+            "category": "Phim tình cảm",
+            "title": "Dear Ex",
+            "subtitle": "Ai Yêu Anh Ấy Trước?",
+            "year": 2018,
+            "imdb": 7.4,
+            "nation": "Đài Loan",
+            "release": "11/2/2021",
+            "intro": "Một cậu thiếu niên bị cuốn vào xung đột giữa bà mẹ ngoan cố và người đàn ông vô ưu, là tình nhân và cũng là người thụ hưởng bảo hiểm của ông bố mới mất của cậu.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/3rRUp4WZdvt4LfdXIWL0qmFv9UI.jpg",
+            "cast": [
+                {   
+                    "name": "Hsieh Ying Shiuan",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/fwDJprZF61lqiaPRIdLltnfMvXC.jpg",
+                    "character":"Liu Sanlian"
+                },
+                {   
+                    "name": "Roy Chiu",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/6T4V9lzPyGgteHmTEBbAr8se5sT.jpg",
+                    "character":"Jay"
+                },
+                {
+                    "name": "Joseph Huang",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/8CAorpGcb95CysKsw0WcZKtQCBg.jpg",
+                    "character":"Song Chengxi"
+                },
+                {
+                    "name": "Spark Chen",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/nQ5VRRrRe3ZWbpkl4hYoKftceM7.jpg",
+                    "character":'Song Zhengyuan'
+                },
+                {
+                    "name": "Ai-Lun Kao",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/jLMn0aDfjW2qGdtlAkeIZ3xS2Dv.jpg",
+                    "character":"Jay's Mother"
+                },
+            ]
+        },
+        {   
+            "id": 112,
+            "background": "https://image.tmdb.org/t/p/original/891MRTCJkqnxgkvatKg6ImBRJ8u.jpg",
+            "trailer": "https://www.youtube.com/watch?v=-xSs_xsf5sI&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=18",
+            "category": "Phim tình cảm",
+            "title": "Us and Them",
+            "subtitle": "Chúng Ta Của Sau Này",
+            "year": 2018,
+            "imdb": 7.3,
+            "nation": "Trung Quốc",
+            "release": "28/4/2018",
+            "intro": "Hai người xa lạ gặp nhau trên một chuyến tàu và có một mối quan hệ phát triển qua nhiều năm. Sau khi chia tay, họ tái hợp và suy ngẫm về tình yêu của mình dành cho nhau.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/rRXpwfwwqYxjHvzo0B32MpXbNyj.jpg",
+            "cast": [
+                {   
+                    "name": "Jing Boran",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/lIHVT1spSU1HF4MtAFZEuXxoTSo.jpg",
+                    "character":"Lin Jianqing"
+                },
+                {   
+                    "name": "Zhou Dongyu",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/vD2vVvIIx8ygzkhUQZJLkvYT1jr.jpg",
+                    "character":"Fang Xiaoxiao"
+                },
+                {
+                    "name": "Tian Zhuangzhuang",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/zf1UfIqClHf74RW4JxBxBJxBkZo.jpg",
+                    "character":"Jianqing's father"
+                },
+                {
+                    "name": "Qu Zheming",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/xnSQ5E7A2zqZreWJWmk87wdJThV.jpg",
+                    "character":''
+                }
+            ]
+        },
+        {   
+            "id": 113,
+            "background": "https://image.tmdb.org/t/p/original/5eyduSReSrheNIMshrUmBji1i76.jpg",
+            "trailer": "https://www.youtube.com/watch?v=TaTvhddSvlE&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=21&t=2s",
+            "category": "Phim tình cảm",
+            "title": "Little Big Women",
+            "subtitle": "Cô vị",
+            "year": 2020,
+            "imdb": 7.5,
+            "nation": "Đài Loan",
+            "release": "11/6/2020",
+            "intro": "Một gia đình vật lộn với sự ra đi của người bố xa cách và những tàn dư còn lại từ cuộc đời ông trong lúc vắng mặt.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/e0ckGIEN2ZTzQa4foHWWGCHa4Yd.jpg",
+            "cast": [
+                {   
+                    "name": "Grace Chen Shu-Fang",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/qMjzD4eDGztg84pP00ZwKhWs7u7.jpg",
+                    "character":"Lin Sho-ying"
+                },
+                {   
+                    "name": "Hsieh Ying Shiuan",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/fwDJprZF61lqiaPRIdLltnfMvXC.jpg",
+                    "character":"Chen Wan-ching"
+                },
+                {
+                    "name": "Vivian Hsu",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/qloKWnHdjNfAY0lfTsGDxHvH2Uv.jpg",
+                    "character":"Chen Wan-yu"
+                },
+                {
+                    "name": "Ke-Fang Sun",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/9faHn9TnfGZd5CpHD8QrxVBidBx.jpg",
+                    "character":'Chen Wan-jia (Jia Jia)'
+                },
+                {
+                    "name": "Ding Ning",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/dhqOBR5KFPxMRKw18U4lFR60xDT.jpg",
+                    "character":'Cai Mei-lin'
+                }
+            ]
+        },
+        {   
+            "id": 114,
+            "background": "https://image.tmdb.org/t/p/original/txDX7lBx8bBhF7dRCEfDYmAmdnk.jpg",
+            "trailer": "https://www.youtube.com/watch?v=5zL3YJKygd4&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=15",
+            "category": "Phim tình cảm",
+            "title": "Love, Rosie",
+            "subtitle": "Nơi cuối cầu vồng (Bồng bột tuổi dậy thì)",
+            "year": 2014,
+            "imdb": 7.2,
+            "nation": "Anh, Mỹ",
+            "release": "16/10/2014",
+            "intro": "Được chuyển thể từ tiểu thuyết cùng tên của Cecelia Ahern (tác giả của P.S. I Love You). Nơi cuối cầu vồng kể về đôi bạn thân thiết Alex và Rosie từ khi bảy tuổi đã bắt đầu trao nhau những bức thư chia sẻ mọi điều buồn vui trong cuộc sống, từ chuyện con chó cưng của Alex cho tới cô Casey có cái mũi to xấu xí... Tuổi thơ láu lỉnh và nghịch ngợm trôi qua, cho tới thuở mười lăm, mười sáu ẩm ương với những xúc cảm hồi hộp và lãng mạn chớm nở… tất cả được gói gọn trong những lá thư giấu kín dưới hộc bàn lớp học. Rồi đột ngột, cha Alex được thăng chức, cậu đành phải miễn cưỡng theo gia đình chuyển tới Boston, rời xa Rosie và những ngày tháng ngọt ngào. Không thể quên được người bạn trai, Rosie quyết tâm tìm tới nước Mỹ gặp lại Alex. Nhưng, trong buổi lễ thành niên trước ngày lên đường, sau cơn say sưa quá chén, Rosie đã lỡ có thai, và mọi dự định phải khép lại. Cô chấp nhận tiếp tục cuộc sống tại Ai Len, nuôi đứa con gái nhỏ trong khi Alex và những người bạn khác tận hưởng cuộc sống sinh viên. Nhưng, không một giây phút nào Alex lãng quên cô, họ tiếp tục chia sẻ với nhau qua những lá thư tay, qua email hay những cuộc chat. Cuộc sống vẫn tiếp tục vòng quay của nó, Rosie và Alex lần lượt có gia đình riêng, trải qua những thăng trầm, và vẫn tự nhủ như hai kẻ nhẫn nại trong trò chơi bí mật của thượng đế, rằng tình yêu nảy mầm từ thuở thơ ấu, cháy âm ỉ trong suốt hơn bốn mươi năm vẫn đợi họ ở đó, nơi cuối cầu vồng...",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/rpD0t7DhzJVadnzgxSYrqljQTL2.jpg",
+            "cast": [
+                {   
+                    "name": "Lily Collins",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/kJULuluy5IzvI2xP5RR0RIyod8f.jpg",
+                    "character":"Rosie Dunne"
+                },
+                {   
+                    "name": "Sam Claflin",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/5DtmRlRZc7wPbat1INQPqsxaH4a.jpg",
+                    "character":"Alex Stewart"
+                },
+                {
+                    "name": "Greg",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/pqIqDP4HuRLc60KR8QMTHWhIJNq.jpg",
+                    "character":"Christian Cooke"
+                },
+                {
+                    "name": "Tamsin Egerton",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/n7iso71As9F3H5LtESDjiqJ6e7s.jpg",
+                    "character":'Sally'
+                },
+                {
+                    "name": "Suki Waterhouse",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/zr4BPEiTgStNQBjZUNDpH4CJlLM.jpg",
+                    "character":'Bethany Williams'
+                }
+            ]
+        },
+        {   
+            "id": 115,
+            "background": "https://image.tmdb.org/t/p/original/tUJTaWlDbdC5kTov5zFVCWfCzGO.jpg",
+            "trailer": "https://www.youtube.com/watch?v=5iEOQn8UUHI&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=16",
+            "category": "Phim tình cảm",
+            "title": "Forever My Girl",
+            "subtitle": "Bên Em Trọn Đời",
+            "year": 2018,
+            "imdb": 6.7,
+            "nation": "Mỹ",
+            "release": "26/1/2018",
+            "intro": "Kể về một nhạc sĩ đồng quê, người đã đặt ra để giành được cô gái mà anh ta để lại trên bàn thờ tám năm trước.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/bKqdggnIPeOI15VqtBZTkvh4hA9.jpg",
+            "cast": [
+                {   
+                    "name": "Alex Roe",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/snMMhl76mgl6a3PU204vIUXOH5U.jpg",
+                    "character":"Liam Page"
+                },
+                {   
+                    "name": "Jessica Rothe",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/oItPXy56W0Y5taqIMZilRtnPDMn.jpg",
+                    "character":"Josie"
+                },
+                {
+                    "name": "John Benjamin Hickey",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/4sUI0QhpeATA3Ah1R5FQzPLrndC.jpg",
+                    "character":"Pastor Brian"
+                },
+                {
+                    "name": "Tamsin Egerton",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/xJcNxy1RV8E0mX2Kr0BMjgzMmfu.jpg",
+                    "character":'Billy'
+                },
+                {
+                    "name": "Tyler Riggs",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/qqB0Xr68AoifSdBpAkbKrsimf9y.jpg",
+                    "character":'Jake'
+                }
+            ]
+        },
+        {   
+            "id": 116,
+            "background": "https://image.tmdb.org/t/p/original/6IfdkHqpvv0t2I1FMY9tI876ej.jpg",
+            "trailer": "https://www.youtube.com/watch?v=SM87W3Ol3mA&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=17",
+            "category": "Phim tình cảm",
+            "title": "More Than Blue",
+            "subtitle": "Mong Em Hạnh Phúc",
+            "year": 2018,
+            "imdb": 6.1,
+            "nation": "Đài Loan",
+            "release": "30/11/2018",
+            "intro": "K và Cream gặp nhau năm 16 tuổi tại trường trung học và dần thân thiết như người trong gia đình. Năm tháng thôi qua, K đi làm cho một hãng thu âm và Cream trở thành nhạc sĩ, họ vẫn sống với nhau dù không phải là một đôi. Một ngày kia, K bị chẩn đoán mắc bệnh bạch cầu, K do dự không tiết lộ bệnh tình của mình cũng như thổ lộ tình yêu với Cream vì sợ cô tổn thương. Trước khi không còn thời gian, K phải làm mọi thứ để Cream có thể ổn định và hạnh phúc.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/bIaZMyV7F6cVulZZ16iEL3L1lOm.jpg",
+            "cast": [
+                {   
+                    "name": "Jasper Liu",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/n4RULK7H8nooIm9WVwW7AghKElO.jpg",
+                    "character":"Zhang Zhe Kai (K)"
+                },
+                {   
+                    "name": "Ivy Chen",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/h2C6e67v7ULbYOF9Bj09Q9UxSQY.jpg",
+                    "character":"Song Yuan Yuan (Cream)"
+                },
+                {
+                    "name": "Bryan Shu-Hao Chang",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/6NG6wtANFb46G5vhdhqf07rJMfD.jpg",
+                    "character":"Yang You Xian"
+                },
+                {
+                    "name": "Annie Chen",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/o9t0UpalWnRWFej39BjUGDil3gC.jpg",
+                    "character":'Cindy'
+                },
+                {
+                    "name": "Bonnie",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/6fD0sTK8MdvTGOrJdo67ZTUT4Gb.jpg",
+                    "character":'Emma Wu'
+                }
+            ]
+        },
+        {   
+            "id": 117,
+            "background": "https://image.tmdb.org/t/p/original/sHhwowiiN5djzlIHeCUM2mUwa2M.jpg",
+            "trailer": "https://www.youtube.com/watch?v=89i-Fn2CqQg&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=8",
+            "category": "Phim tình cảm",
+            "title": "It's Okay to Not Be Okay",
+            "subtitle": "Điên thì có sao",
+            "year": 2020,
+            "imdb": 8.7,
+            "nation": "Hàn Quốc",
+            "release": "20/6/2020",
+            "intro": "Khi một tác giả sách thiếu nhi có xu hướng chống đối xã hội gặp một người chăm sóc tâm lý vị tha, một hành trình khác thường giúp chữa lành cảm xúc mở ra với họ.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/6CvvTWcw9vSf5Zpgeot2ppE0P2D.jpg",
+            "cast": [
+                {   
+                    "name": "Kim Soo-Hyun",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/q24P4pmtWGhe08T7rTkoDc5EC1p.jpg",
+                    "character":"Moon Kang Tae"
+                },
+                {   
+                    "name": "Seo Ye-ji",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/aFUKF3hh7zQHfsfwCoPM7upvXDs.jpg",
+                    "character":"Go Moon Young"
+                },
+                {
+                    "name": "Park Gyu-young",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/ySPIrTBRco8xpX8gbMKXh2Xtyxy.jpg",
+                    "character":"Nam Joo Ri"
+                },
+                {
+                    "name": "Oh Jung-se",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/oIqRAdI5e777odhOJl6e4Jc9ADj.jpg",
+                    "character":'Moon Sang Tae'
+                },
+                {
+                    "name": "Park Jin-joo",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/fMYi2wypK1pbOP4F7MuWpJyqdR7.jpg",
+                    "character":'Yoo Seung Jae'
+                }
+            ]
+        },
+        {   
+            "id": 118,
+            "background": "https://image.tmdb.org/t/p/original/27ZkYMWynuK2qiDP6awc3MsCaOs.jpg",
+            "trailer": "https://www.youtube.com/watch?v=XtgCqMZofqM&list=PLSeHYMZxWB-J747YxfFuNlhRo1e8MYF3M&index=14",
+            "category": "Phim tình cảm",
+            "title": "Five Feet Apart",
+            "subtitle": "Năm Bước Để Yêu",
+            "year": 2019,
+            "imdb": 7.1,
+            "nation": "Mỹ",
+            "release": "15/3/2019",
+            "intro": "Năm Bước Để Yêu nói về câu chuyện tình của Will và Stella khi cả hai đều mang căn bệnh u xơ nang. Với những người mắc căn bệnh này, họ không thể đến gần nhau và khoảng cách 6 bước chân là quy tắc bất khả kháng để cả hai không bị lây nhiễm vi khuẩn của nhau. Tuy nhiên, tình cảm vốn là điều khó nói. Đặc biệt là Will và Stella, dù không thể chạm được vào nhau nhưng họ vẫn chấp nhận dành tình cảm cho người còn lại, một cách chân thành nhất.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg",
+            "cast": [
+                {   
+                    "name": "Haley Lu Richardson",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/tSoX3nWJxzZP1IK5W2s4UVy7HUw.jpg",
+                    "character":"Stella Grant"
+                },
+                {   
+                    "name": "Cole Sprouse",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/aJxTvZjse8hAljcvljqTaH45eaB.jpg",
+                    "character":"Will Newman"
+                },
+                {
+                    "name": "Moisés Arias",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/gcZFNl5xRIjtiDQ2W66A9v2lEih.jpg",
+                    "character":"Poe"
+                },
+                {
+                    "name": "Kimberly Hebert Gregory",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/qHhb8bU2oWscATbSwsxPz1NVwGZ.jpg",
+                    "character":'Nurse Barb'
+                },
+                {
+                    "name": "Parminder Nagra",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/ix2VHqddGPtPBQi2QODbLsDwdVj.jpg",
+                    "character":'Dr. Noor Hamid'
+                }
+            ]
+        },
+        {   
+            "id": 119,
+            "background": "https://image.tmdb.org/t/p/original/nG5zmbVeYlcDhckrPAe06fArywn.jpg",
+            "trailer": "https://www.youtube.com/watch?v=6QRvTv_tpw0",
+            "category": "Phim tình cảm",
+            "title": "Her",
+            "subtitle": "Hạnh Phúc Ảo",
+            "year": 2013,
+            "imdb": 8,
+            "nation": "Mỹ",
+            "release": "18/12/2013",
+            "intro": "Theodore là một nhà văn cô đơn, hướng nội, làm nghề viết thư tình cho những người gặp khó khăn trong việc biểu lộ cảm xúc. Trầm cảm và chán nản sau khi ly dị vợ - tình yêu từ thuở ấu thơ, Theodore đã rơi vào mối quan hệ với Samantha, một hệ điều hành máy tính có trí thông minh nhân tạo và khả năng học hỏi, giao tiếp như con người bình thường...",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/yk4J4aewWYNiBhD49WD7UaBBn37.jpg",
+            "cast": [
+                {   
+                    "name": "Joaquin Phoenix",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/oZQsSpAEYLMdfMI3PPL6QkzVkV7.jpg",
+                    "character":"Theodore Twombly"
+                },
+                {   
+                    "name": "Scarlett Johansson",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+                    "character":"Samantha (voice)"
+                },
+                {
+                    "name": "Amy Adams",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/1h2r2VTpoFb5QefAaBYYQgQzL9z.jpg",
+                    "character":"Amy"
+                },
+                {
+                    "name": "Rooney Mara",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/zT6UyHFHEQ9RcKykplWCycKBnoS.jpg",
+                    "character":'Catherine Klausen'
+                },
+                {
+                    "name": "Olivia Wilde",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/2axumXwKuHEX6BoH5nytV611Lje.jpg",
+                    "character":'Blind Date'
+                }
+            ]
+        },
+        {   
+            "id": 120,
+            "background": "https://image.tmdb.org/t/p/original/o0ghC4XMIMdbRBXIqSvnPrxwj3W.jpg",
+            "trailer": "https://www.youtube.com/watch?v=EH3zcuRQXNo",
+            "category": "Phim tình cảm",
+            "title": "Carol",
+            "subtitle": "Chuyện tình Carol",
+            "year": 2015,
+            "imdb": 7.2,
+            "nation": "Anh, Mỹ",
+            "release": "20/11/2015",
+            "intro": "Phim Carol là bộ phim do Todd Haynes đạo diễn và được thực hiện dựa trên cuốn tiểu thuyết cùng tên ra mắt vào năm 1952 của nhà văn Patricia Highsmith. Lấy bối cảnh thành phố New York vào thập niên 50, nội dung chính của bộ phim xoay quanh Carol (Cate Blanchett) - một người phụ nữ đã có chồng nhưng lại đem lòng yêu cô nàng bán hàng Therese Belivet xinh đẹp trẻ tuổi (Rooney Mara).",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/uHwjbztkPEW3lcfsbKGO3XlaPjL.jpg",
+            "cast": [
+                {   
+                    "name": "Rooney Mara",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/zT6UyHFHEQ9RcKykplWCycKBnoS.jpg",
+                    "character":"Therese Belivet"
+                },
+                {   
+                    "name": "Cate Blanchett",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg",
+                    "character":"Carol Aird"
+                },
+                {
+                    "name": "Kyle Chandler",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/fVTorgPgT7pLLkJhIMNoOKdX1mn.jpg",
+                    "character":"Harge Aird"
+                },
+                {
+                    "name": "Sarah Paulson",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/jkhpv4oPNcMSvPPDUuCyPIFwYyS.jpg",
+                    "character":'Abby Gerhard'
+                },
+                {
+                    "name": "Jake Lacy",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/sAF2ISBdNFMtbanjPyPwqriq3XM.jpg",
+                    "character":'Richard Semco'
+                }
+            ]
+        },
+        {   
+            "id": 121,
+            "background": "https://image.tmdb.org/t/p/original/exH0qO1tzG2a6LHeyzaWI2gZvfi.jpg",
+            "trailer": "https://www.youtube.com/watch?v=PQNLfo-SOR4",
+            "category": "Phim tình cảm",
+            "title": "The Twilight Saga: Breaking Dawn - Part 1",
+            "subtitle": "Hừng Đông 1",
+            "year": 2011,
+            "imdb": 4.9,
+            "nation": "Mỹ",
+            "release": "15/3/2011",
+            "intro": "Sau nhiều khó khăn cách trở cuối cùng Bella và Edward cũng đến được với nhau bằng một đám cưới hạnh phúc nhưng “ngày vui ngắn chẳng tày gang” khi Bella có thai, sinh mạng mang nửa dòng máu người và nửa dòng máu Ma cà rồng. Đặc biệt cái thai còn gây nguy hiểm tới tính mạng của Bella và cả gia tộc Ma cà rồng. Cái kết mà nhiều người mong chờ cuối cùng đã tới: Đám cưới hạnh phúc cho cặp đôi Bella – Edward. Điểm nhấn lớn nhất của phim chính là cảnh này. Hiệu ứng hình ảnh được sử dụng khá triệt để đặc biệt trong phân đoạn biến đổi khuôn mặt Bella. Về mặt diễn xuất Breaking Dawn 1 chứng kiến sự chững chạc và trưởng thành hơn cả của dàn diễn viên trẻ đã gắn bó cùng nhau suốt 3 năm qua.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/dSSzv6JrlwS48pBeTNSswLJXOYF.jpg",
+            "cast": [
+                {   
+                    "name": "Kristen Stewart",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/owdG2iYyTzoxJQXD6ZeKJyyBY3o.jpg",
+                    "character":"Bella Swan"
+                },
+                {   
+                    "name": "Robert Pattinson",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg",
+                    "character":"Edward Cullen"
+                },
+                {
+                    "name": "Taylor Lautner",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/2lDbFd1Zv7H1123zDm2YkmBVMA8.jpg",
+                    "character":"Jacob Black"
+                },
+                {
+                    "name": "Ashley Greene",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/7crsfr0klw5iaYvZ3n9ps6RCIhp.jpg",
+                    "character":'Alice Cullen'
+                },
+                {
+                    "name": "Peter Facinelli",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/rzOK3sbHNyDNbHOhB6mKb9nCDxg.jpg",
+                    "character":'Carlisle Cullen'
+                }
+            ]
+        },
+        {   
+            "id": 122,
+            "background": "https://image.tmdb.org/t/p/original/qkl57wzSFrpi2sRpoc2mZJbMuLP.jpg",
+            "trailer": "https://www.youtube.com/watch?v=ti0H-bvMi3I",
+            "category": "Phim tình cảm",
+            "title": "The Twilight Saga 5: Breaking Dawn (Part 2)",
+            "subtitle": "Chạng vạng 5: Hừng Đông (Phần 2)",
+            "year": 2012,
+            "imdb": 5.5,
+            "nation": "Mỹ",
+            "release": "13/1/2012",
+            "intro": "Sau sự ra đời của Renesmee – con gái của Bella và Edward, nhà Cullens thu thập các gia tộc ma cà rồng khác để bảo vệ cô bé khỏi một cáo buộc sai lầm đang đẩy cả gia đình đối đầu gia tộc Volturi. Bella khi này đã hoàn toàn khống chế được bản năng Ma Cà Rồng trong mình và trở thành người có sức mạnh lớn nhất của nhà Cullen. Một cuộc chiến cuối cùng và duy nhất sẽ diễn ra...",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/jHE7WUf3FDod8vw3O3twh0JVZun.jpg",
+            "cast": [
+                {   
+                    "name": "Kristen Stewart",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/owdG2iYyTzoxJQXD6ZeKJyyBY3o.jpg",
+                    "character":"Bella Swan"
+                },
+                {   
+                    "name": "Robert Pattinson",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg",
+                    "character":"Edward Cullen"
+                },
+                {
+                    "name": "Taylor Lautner",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/2lDbFd1Zv7H1123zDm2YkmBVMA8.jpg",
+                    "character":"Jacob Black"
+                },
+                {
+                    "name": "Ashley Greene",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/7crsfr0klw5iaYvZ3n9ps6RCIhp.jpg",
+                    "character":'Alice Cullen'
+                },
+                {
+                    "name": "Peter Facinelli",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/rzOK3sbHNyDNbHOhB6mKb9nCDxg.jpg",
+                    "character":'Carlisle Cullen'
+                }
+            ]
+        },
+        {   
+            "id": 123,
+            "background": "https://image.tmdb.org/t/p/original/hrMbAi9fPTmc6EtpyyAgDKznptu.jpg",
+            "trailer": "https://www.youtube.com/watch?v=Z9AYPxH5NTM",
+            "category": "Phim tình cảm",
+            "title": "Call Me by Your Name",
+            "subtitle": "Gọi em bằng tên anh",
+            "year": 2017,
+            "imdb": 7.9,
+            "nation": "Mỹ, Brazil, Pháp, Ý",
+            "release": "9/1/2017",
+            "intro": "Call Me By Your Name được chuyển thể từ tiểu thuyết cùng tên của nhà văn André Aciman, lấy bối cảnh những năm 80. Nội dung tập trung vào mối quan hệ đầy cảm hứng giữa cậu bé 17 tuổi Elio (Timothée Chalamet) và chàng sinh viên 24 tuổi Oliver (Armie Hammer). Oliver là sinh viên khảo cổ học người Mỹ đến ở trong biệt thự nhà Elio và theo học giáo sư là bố của cậu bé. Hai chàng trai trẻ đã bị cuốn vào một mối tình lãng mạn giữa khung hình tuyệt đẹp của miền quê nước Ý trong một mùa hè rực rỡ năm 1983.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/tcNniniS4rfqrLH0oORikJfnIwY.jpg",
+            "cast": [
+                {   
+                    "name": "Timothée Chalamet",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/8jNFfNmqHVqLHnGnxgu7y8xgRIa.jpg",
+                    "character":"Elio Perlman"
+                },
+                {   
+                    "name": "Armie Hammer",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/dacZbbnheEhejYbkDgz7WhhSBJp.jpg",
+                    "character":"Oliver"
+                },
+                {
+                    "name": "Michael Stuhlbarg",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/seBk12MUK51aUoYX4OW1itfOpJ6.jpg",
+                    "character":"Samuel Perlman"
+                },
+                {
+                    "name": "Amira Casar",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/50fLRb6xKqIrtTC5fBWTuxh1j82.jpg",
+                    "character":'Annella Perlman'
+                },
+                {
+                    "name": "Esther Garrel",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/M6Q9IebQbWM1ctoRpkcTX2XUkz.jpg",
+                    "character":'Marzia'
+                }
+            ]
+        },
+        {   
+            "id": 124,
+            "background": "https://image.tmdb.org/t/p/original/eLEeH0dFXBuSQ81Y3ESXRJQtJqf.jpg",
+            "trailer": "https://www.youtube.com/watch?v=q40GxY5n2Dg",
+            "category": "Phim tình cảm",
+            "title": "Flipped",
+            "subtitle": "Lật Ngược",
+            "year": 2010,
+            "imdb": 7.7,
+            "nation": "Mỹ",
+            "release": "8/6/2010",
+            "intro": "Phim xoay quanh câu chuyện của Juli và Bryce. Ngay từ lần đầu gặp mặt, cô bé 7 tuổi Juli đã biết rằng Bryce chính là tình yêu của đời mình, trong khi đó thì Bryce cảm thấy khó chịu vì suốt ngày bị Juli đeo dính. Thế nhưng, đến năm lớp tám, mọi thứ đã đảo lộn khi cậu bé Bryce năm xưa bắt đầu có cảm tình với Juli, trong khi cô bé lại băn khoăn về cảm xúc của chính mình. Tình thế hoàn toàn đảo ngược, liệu Bryce phải làm gì để lấy cảm tình của Juli? Ca khúc cuối phim: Let It Be Me - Phil Everly",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/6zDYFigohwncqFL00MKbFV01dWb.jpg",
+            "cast": [
+                {   
+                    "name": "Madeline Carroll",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/rUXWRKgyf9vLoC4zSHlu5fHdtxR.jpg",
+                    "character":"Julianna 'Juli' Baker"
+                },
+                {   
+                    "name": "Callan McAuliffe",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/prb72bUO481G2Kxk55dD0LLnCAj.jpg",
+                    "character":"Bryce Loski"
+                },
+                {
+                    "name": "Rebecca De Mornay",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/bGSvflCmfywasc3U8QAsJPaAek4.jpg",
+                    "character":"Pasty Loski"
+                },
+                {
+                    "name": "Anthony Edwards",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/rP88gP87pa3je6Viem3081tESIV.jpg",
+                    "character":'Steven Loski'
+                },
+                {
+                    "name": "John Mahoney",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/9HhpD3Q6cBXddYkBTEzoPYlPL2h.jpg",
+                    "character":'Chet Duncan'
+                }
+            ]
+        },
+        {   
+            "id": 125,
+            "background": "https://image.tmdb.org/t/p/original/3WcllQqwppGenyvk60hgIStvL34.jpg",
+            "trailer": "https://www.youtube.com/watch?v=fiv8Gy5CJ0Y",
+            "category": "Phim tình cảm",
+            "title": "Atonement",
+            "subtitle": "Chuộc Lại Lỗi Lầm",
+            "year": 2010,
+            "imdb": 7.8,
+            "nation": "Anh, Pháp, Mỹ",
+            "release": "29/8/2007",
+            "intro": "Phim Chuộc Lại Lỗi Lầm lấy bối cảnh mùa hè năm 1935, Briony Tallis sống cùng gia đình trong căn biệt thự sang trọng. Tuy nhiên trong phim hd này, khi phát hiện Robbie Turner là con trai của người quản gia cho gia đình có tình cảm quá mức bình thường với cô chị Cecilia. Vốn đã ác cảm với Robbie nên Briony nghĩ ngay tới việc phá đám mối quan hệ này Khi Cecilia và Robbie công khai tình cảm thì cũng là lúc Robbie bị bắt mà nhân chứng giả không ai khác chính là Briony và từ đây, cuộc đời của cả ba nhân vật đã rẽ sang hướng khác.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/hMRIyBjPzxaSXWM06se3OcNjIQa.jpg",
+            "cast": [
+                {   
+                    "name": "Keira Knightley",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/bRC1B2VwV0wK3ElciFAK6QZf2wD.jpg",
+                    "character":"Cecilia Tallis"
+                },
+                {   
+                    "name": "James McAvoy",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/vB6qYlFXgONGVwwxWXE4gf0F8SQ.jpg",
+                    "character":"Robbie Turner"
+                },
+                {
+                    "name": "Romola Garai",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/xLNhomrHLIB5CY5lvmlsKAqBzlk.jpg",
+                    "character":"Briony Tallis (Age 18)"
+                },
+                {
+                    "name": "Saoirse Ronan",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg",
+                    "character":'Briony Tallis (Age 13)'
+                },
+                {
+                    "name": "Brenda Blethyn",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/yUq4vKJ3SmvDZNKvXmA4OdXehDj.jpg",
+                    "character":'Grace Turner'
+                }
+            ]
+        },
+        {   
+            "id": 126,
+            "background": "https://image.tmdb.org/t/p/original/1Gs8iEHTsbNItQxaZ0h59ozCBob.jpg",
+            "trailer": "https://www.youtube.com/watch?v=zVuuooZqVaU",
+            "category": "Phim tình cảm",
+            "title": "One Day",
+            "subtitle": "Một ngày để yêu",
+            "year": 2011,
+            "imdb": 7,
+            "nation": "Anh, Pháp, Mỹ",
+            "release": "3/2/2011",
+            "intro": "Được chuyển thể từ tiểu thuyết cùng tên của tác giả David Nicholls, phim là hành trình tình yêu kéo dài gần 20 năm của hai nhân vật Dexter và Emma. Sau đêm thân mật tại lễ tốt nghiệp đại học trong này, hàng năm cả hai lại hẹn gặp nhau một ngày để biết cuộc sống hiện tại của người kia. Họ cũng có cảm tình với nhau, nhưng chỉ quyết định gặp nhau một năm một lần.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/xGclxjTTbOdR18zqoldGTjfzSkl.jpg",
+            "cast": [
+                {   
+                    "name": "Anne Hathaway",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/tLelKoPNiyJCSEtQTz1FGv4TLGc.jpg",
+                    "character":"Emma Morley"
+                },
+                {   
+                    "name": "Jim Sturgess",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/c1Q99UEGfU4Laa4o8yu7kGJFIY1.jpg",
+                    "character":"Dexter Mayhew"
+                },
+                {
+                    "name": "Tom Mison",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/aBDtRCCGgE3Zug2krAhL2IfyvWO.jpg",
+                    "character":"Callum O'Neill"
+                },
+                {
+                    "name": "Jodie Whittaker",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/zS6EO1GsfOiuyaa66YqmUPWDX78.jpg",
+                    "character":'Tilly Shaw'
+                },
+                {
+                    "name": "Rafe Spall",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/zcqUqAvO7RQnitcCNNfTVPaiQtS.jpg",
+                    "character":'Ian Whitehead'
+                }
+            ]
+        },
+        {   
+            "id": 127,
+            "background": "https://image.tmdb.org/t/p/original/reOdKBPXT9TpwyYnGGyKxG3jXe6.jpg",
+            "trailer": "https://www.youtube.com/watch?v=d88APYIGkjk",
+            "category": "Phim tình cảm",
+            "title": "The Danish Girl",
+            "subtitle": "Cô gái Đan Mạch",
+            "year": 2015,
+            "imdb": 7.1,
+            "nation": "Đức, Anh, Mỹ, Bỉ, Đan Mạch",
+            "release": "27/11/2015",
+            "intro": "Bộ phim như một bản tình ca khiến khán giả phải đẫm lệ và dành hẳn tới 10 phút vỗ tay sau khi kết thúc suất chiếu. Dựa trên một câu chuyện phi thường có thật, bộ phim đưa người xem trở về thời điểm của những năm 1900, khắc họa chân dung Lili Elbe – người đầu tiên trên thế giới dám mạnh mẽ đối mặt với chính bản thân để phẫu thuật chuyển đổi giới tính.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/mXZZIacI5FC8thzSC0lgQBQ2uAX.jpg",
+            "cast": [
+                {   
+                    "name": "Eddie Redmayne",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/fSvG7qzoBBnJUmgtIuMgrK3EQPN.jpg",
+                    "character":"Einar Wegener / Lili Elbe"
+                },
+                {   
+                    "name": "Alicia Vikander",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/9pmHTbXeRxUF51jJKthmHI49u9z.jpg",
+                    "character":"Gerda Wegener"
+                },
+                {
+                    "name": "Matthias Schoenaerts",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/estZOBtDX860B1nbFRtNXt7SbHn.jpg",
+                    "character":"Hans Axgil"
+                },
+                {
+                    "name": "Ben Whishaw",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/2GBtQ6scGeSHkX1urOP1EJbmksx.jpg",
+                    "character":'Henrik Sandahl'
+                }
+            ]
+        },
+        {   
+            "id": 128,
+            "background": "https://image.tmdb.org/t/p/original/6VmFqApQRyZZzmiGOQq2C92jyvH.jpg",
+            "trailer": "https://www.youtube.com/watch?v=ZQ6klONCq4s",
+            "category": "Phim tình cảm",
+            "title": "Titanic",
+            "subtitle": "Titanic",
+            "year": 1997,
+            "imdb": 7.8,
+            "nation": "Mỹ",
+            "release": "18/11/1997",
+            "intro": "Rose Dewitt Bukater bị gia đình “ép duyên” với nhà quý tộc giàu có Cal Hockley. Cuộc đời của cô lẽ ra sẽ được sắp đặt theo kế hoạch nhưng mọi chuyện đã thay đổi khi cô bước chân lên con tàu Titanic. Chính nơi đây cô đã gặp được Jack Dawson, một họa sĩ trẻ thuộc tầng lớp bình dân. Cô gái quý tộc này đã từ bỏ tất cả để hòa nhập vào những điệu nhảy nhịp nhàng, những trò chơi đơn giản mà thú vị, những câu chuyện đời thường, tất cả những gì Rose chưa từng biết tới khi sống trong tầng lớp quý tộc. Thế nhưng một thảm họa đã xảy ra khiến mọi chuyện lệch khỏi quỹ đạo không còn đi theo kế hoạch, tàu Tinatic va phải một tảng băng trôi. Người ta nháo nhào tranh nhau một suất xuống thuyền cứu hộ, cướp nhau một cái áo phao. Lúc này Jack đang bị kẹt bên một đường ống dẫn nước vì vướng vào một vụ vu oan giá họa, người ta nghi ngờ anh ăn cắp một chuỗi trang sức quý giá…",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+            "cast": [
+                {   
+                    "name": "Kate Winslet",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/dgIrPQjcdfCnKiGc8ugg5W3GzFX.jpg",
+                    "character":"Rose DeWitt Bukater"
+                },
+                {   
+                    "name": "Leonardo DiCaprio",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+                    "character":"Jack Dawson"
+                },
+                {
+                    "name": "Kathy Bates",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/qZRTzTjV4OC1Ii9a0n8QBS9zMOd.jpg",
+                    "character":"Molly Brown"
+                },
+                {
+                    "name": "Frances Fisher",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/tsyGcoXGRNM8KGLpLG3OuxAyxx2.jpg",
+                    "character":'Ruth Dewitt Bukater'
+                },
+                {
+                    "name": "Billy Zane",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/9HIubetYWAVLlHNb9aObL0fc0sT.jpg",
+                    "character":"Caledon 'Cal' Hockley"
+                }
+            ]
+        },
+        {   
+            "id": 129,
+            "background": "https://image.tmdb.org/t/p/original/jz9Kep0xWjiA6QDHSsd43ASxNfj.jpg",
+            "trailer": "https://www.youtube.com/watch?v=07-QBnEkgXU",
+            "category": "Phim tình cảm",
+            "title": "Eternal Sunshine of the Spotless Mind",
+            "subtitle": "Ký Ức Tình Yêu",
+            "year": 2004,
+            "imdb": 8.3,
+            "nation": "Mỹ",
+            "release": "19/3/2004",
+            "intro": "Joel (Jim Carrey) bàng hoàng nhận ra rằng ký ức của cô bạn gái Clementine (Kate Winslet) về tình yêu của 2 người đã bị xóa mờ trong tâm trí.Đau khổ và tuyệt vọng, Joel nhờ tiến sĩ Howard Mierzwiak (Tom Wilkinson) thực hiện việc xóa hình ảnh của Clementine ra khỏi trái tim anh. Nhưng trong khi thực hiện điều này, Joel lại cảm thấy vẫn còn yêu Clemetine. Thế là cuộc rượt đuổi tình yêu bắt đầu khiến Joel nhận ra rằng anh chưa bao giờ dứt bỏ được Clemetine ra khỏi trái tim mình...",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+            "cast": [
+                {   
+                    "name": "Jim Carrey",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/u0AqTz6Y7GHPCHINS01P7gPvDSb.jpg",
+                    "character":"Joel Barish"
+                },
+                {   
+                    "name": "Kate Winslet",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/dgIrPQjcdfCnKiGc8ugg5W3GzFX.jpg",
+                    "character":"Clementine Kruczynski"
+                },
+                {
+                    "name": "Kirsten Dunst",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/sFYHUU1gWd57pttD8732tkBsXV5.jpg",
+                    "character":"Mary Svevo"
+                },
+                {
+                    "name": "Mark Ruffalo",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
+                    "character":'Stan Fink'
+                }
+            ]
+        },
+        {   
+            "id": 130,
+            "background": "https://image.tmdb.org/t/p/original/6eU0Ee8eoX1dhAmHfjVmviF8yXD.jpg",
+            "trailer": "https://www.youtube.com/watch?v=PcL24s-S6ns",
+            "category": "Phim tình cảm",
+            "title": "The Vow",
+            "subtitle": "Yêu lại từ đầu",
+            "year": 2012,
+            "imdb": 6.8,
+            "nation": "Mỹ",
+            "release": "5/2/2012",
+            "intro": "The Vow nói về tình yêu của hai nhân vật Paige và Leo. Cả hai quyết định tổ chức đám cưới 'chui' trong một viện bảo tàng để tiết kiệm chi phí. Tuy nhiên, khi họ đang tận hưởng những ngày hạnh phúc đầu tiên của cuộc sống hôn nhân thì một biến cố xảy ra. Tai nạn xe hơi thảm khốc đã cướp đi trí nhớ của Paige. Khi thức dậy trong bệnh viện, cô không còn nhớ Leo là ai mà chỉ nhớ được quãng thời gian trước khi gặp và yêu anh. Mọi chuyện trở nên phức tạp khi Paige quay về với người yêu cũ trước đây. Leo tự nhủ phải làm mọi cách để giành lại trái tim của vợ mình...",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/qHNjcjKa6VHJsa0Eu0DHl2BaYw3.jpg",
+            "cast": [
+                {   
+                    "name": "Rachel McAdams",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/bowGtY3nSvAJg9fKzGfw2Kqiwb9.jpg",
+                    "character":"Paige Collins"
+                },
+                {   
+                    "name": "Channing Tatum",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/e5p1xrGtPfpJBQR9Pt3B6W4buZP.jpg",
+                    "character":"Leo Collins"
+                },
+                {
+                    "name": "Sam Neill",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/bNZ03phkLewj8eUR6mGbKZ7jtmv.jpg",
+                    "character":"Bill Thornton"
+                },
+                {
+                    "name": "Scott Speedman",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/d0fzWMIzsMAXS2M04SKFMof6zQX.jpg",
+                    "character":'Jeremy'
+                }
+            ]
+        },
+        {   
+            "id": 131,
+            "background": "https://image.tmdb.org/t/p/original/7jjwdoIVPJp7gcDo9uE1sVZi2Rs.jpg",
+            "trailer": "https://www.youtube.com/watch?v=LAt_m80hV8s",
+            "category": "Phim tình cảm",
+            "title": "Me Before You",
+            "subtitle": "Trước Ngày Em Đến",
+            "year": 2016,
+            "imdb": 7.4,
+            "nation": "Mỹ",
+            "release": "6/1/2016",
+            "intro": "Nội dung bộ phim kể về câu chuyện tình của cô gái 26 tuổi Louisa Clark sống ở một thị trấn cổ miền quê nước Anh. Lou là cô gái có phong cách ăn mặc màu mè khác biệt, không có phương hướng và ước mơ cá nhân cụ thể nào cả, dù rất vui vẻ lạc quan nhưng Lou lại phải vất vả làm việc để giúp đỡ gia đình khó khăn của mình. Công việc mới của Lou làm chăm sóc cho Will Traynor, một chủ nhà băng trẻ tuổi giàu có bị liệt nửa người và phải gắn chặt đời mình trên chiếc xe lăn. Tai nạn thảm khốc 2 năm trước đã biến Will từ một chàng trai mạnh mẽ phóng khoáng trở thành một người cố chấp, đầu hàng số phận. Cuộc gặp gỡ đã trở thành bước ngoặt làm thay đổi cuộc đời và trái tim của cả hai nhân vật.",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/oo2Q3T8juOYFh2G1YJ3oSMAfUyq.jpg",
+            "cast": [
+                {   
+                    "name": "Emilia Clarke",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/86jeYFV40KctQMDQIWhJ5oviNGj.jpg",
+                    "character":"Louisa 'Lou' Clark"
+                },
+                {   
+                    "name": "Janet McTeer",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/5DtmRlRZc7wPbat1INQPqsxaH4a.jpg",
+                    "character":"William 'Will' Traynor"
+                },
+                {
+                    "name": "Sam Neill",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/qOKAI6aunD4J5MXiwwomAhI3jI2.jpg",
+                    "character":"Camilla Traynor"
+                },
+                {
+                    "name": "Charles Dance",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/2T2tH6EJjgP8aGevWogwfYr26QQ.jpg",
+                    "character":'Stephen Traynor'
+                }
+            ]
+        },
+        {   
+            "id": 132,
+            "background": "https://image.tmdb.org/t/p/original/oQaVV7p916HO5MDI820zzs1pin9.jpg",
+            "trailer": "https://www.youtube.com/watch?v=9ItBvH5J6ss",
+            "category": "Phim tình cảm",
+            "title": "The Fault in Our Stars",
+            "subtitle": "Lỗi của những vì sao",
+            "year": 2014,
+            "imdb": 7.7,
+            "nation": "Mỹ",
+            "release": "16/5/2016",
+            "intro": "Được chuyển thể từ tiểu thuyết cùng tên rất ăn khách của nhà văn John Green, The Fault in Our Stars là bộ phim tình cảm, lãng mạn được chờ đợi nhất mùa phim hè năm nay. Phim nói về tình yêu của Hazel, cô gái mắc bệnh ung thư giai đoạn cuối, và chàng trai trẻ Gus. Có đề tài là tình yêu trong cơn bạo bệnh nhưng tiểu thuyết The Fault in Our Stars từng gây sốt bởi sự nhẹ nhàng, hài hước và tính lạc quan trong câu chuyện. Thể hiện vai chính, Hazel, là kiều nữ đang lên của Hollywood - Shailene Woodley. Cô sẽ đóng cặp với nam diễn viên Ansel Elgort - người đóng vai anh trai mình trong Divergent vừa ra mắt hồi tháng ba. The Fault in Our Stars được quay tại Pittsburgh (Mỹ) và Amsterdam (Hà Lan).",
+            "imageUrl":"https://image.tmdb.org/t/p/w342/ep7dF4QR4Mm39LI958V0XbwE0hK.jpg",
+            "cast": [
+                {   
+                    "name": "Shailene Woodley",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/xdyUPTEvM1i8CzfmXUO9yLnBDQp.jpg",
+                    "character":"Hazel Grace Lancaster"
+                },
+                {   
+                    "name": "Ansel Elgort",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/ynceZwoR41V4FBiElUpgG5aFi9i.jpg",
+                    "character":"Augustus Waters"
+                },
+                {
+                    "name": "Nat Wolff",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/elgszZQCo9ZyU8CBpROuI0lfN5o.jpg",
+                    "character":"Isaac"
+                },
+                {
+                    "name": "Laura Dern",
+                    "image":"https://image.tmdb.org/t/p/w138_and_h175_face/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg",
+                    "character":'Frannie Lancaster'
+                }
+            ]
+        },
         ],
     "phimhanhdong":[
         {   
-            "id": 9,
+            "id": 21,
             "background": "https://image.tmdb.org/t/p/original/nDLylQOoIazGyYuWhk21Yww5FCb.jpg",
             "trailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ",
             "category": "Phim hành động",
@@ -369,7 +1323,7 @@ let data = {
             ]
         },
         {   
-            "id": 10,
+            "id": 22,
             "background": "https://image.tmdb.org/t/p/original/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
             "trailer": "https://www.youtube.com/watch?v=Fp9pNPdNwjI",
             "category": "Phim hành động",
@@ -410,7 +1364,7 @@ let data = {
             ]
         },
         {   
-            "id": 11,
+            "id": 23,
             "background": "https://image.tmdb.org/t/p/original/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
             "trailer": "https://www.youtube.com/watch?v=EFYEni2gsK0",
             "category": "Phim hành động",
@@ -451,7 +1405,7 @@ let data = {
             ]
         },
         {   
-            "id": 12,
+            "id": 24,
             "background": "https://image.tmdb.org/t/p/original/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg",
             "trailer": "https://www.youtube.com/watch?v=-BQPKD7eozY",
             "category": "Phim hành động",
@@ -492,7 +1446,7 @@ let data = {
             ]
         },
         {   
-            "id": 13,
+            "id": 25,
             "background": "https://image.tmdb.org/t/p/original/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
             "trailer": "https://www.youtube.com/watch?v=-FmWuCgJmxo",
             "category": "Phim hành động",
@@ -533,7 +1487,7 @@ let data = {
             ]
         },
         {   
-            "id": 14,
+            "id": 26,
             "background": "https://image.tmdb.org/t/p/original/dK12GIdhGP6NPGFssK2Fh265jyr.jpg",
             "trailer": "https://www.youtube.com/watch?v=Pj0wz7zu3Ms",
             "category": "Phim hành động",
@@ -574,7 +1528,7 @@ let data = {
             ]
         },
         {   
-            "id": 15,
+            "id": 27,
             "background": "https://image.tmdb.org/t/p/original/T2Oi1KTOOVhHygBK99yX4QHZg9.jpg",
             "trailer": "https://www.youtube.com/watch?v=S12-4mXCNj4",
             "category": "Phim hành động",
@@ -615,7 +1569,7 @@ let data = {
             ]
         },
         {   
-            "id": 16,
+            "id": 28,
             "background": "https://image.tmdb.org/t/p/original/4LZuFMhLivOSO7zuWAQ3RffMnnr.jpg",
             "trailer": "https://www.youtube.com/watch?v=ZOl7iOrD31Q",
             "category": "Phim hành động",
@@ -658,7 +1612,7 @@ let data = {
     ],
     "phimkinhdi":[
         {   
-            "id": 17,
+            "id": 31,
             "background": "https://image.tmdb.org/t/p/original/mceCXNTny6a5F3rQgShLoyARw4l.jpg",
             "trailer": "https://www.youtube.com/watch?v=7rI56NmD33Y",
             "category": "Phim kinh dị",
@@ -699,7 +1653,7 @@ let data = {
             ]
         },
         {   
-            "id": 19,
+            "id": 32,
             "background": "https://image.tmdb.org/t/p/original/9SISFlf6SEiIb7CMk8h0Gu3NYow.jpg",
             "trailer": "https://www.youtube.com/watch?v=wDtJ3M4arIc",
             "category": "Phim kinh dị",
@@ -730,7 +1684,7 @@ let data = {
             ]
         },
         {   
-            "id": 20,
+            "id": 33,
             "background": "https://image.tmdb.org/t/p/original/qbQ219gsHpdx33WSfdCgG9I2Xg5.jpg",
             "trailer": "https://www.youtube.com/watch?v=2Tshycci2ZA",
             "category": "Phim kinh dị",
@@ -771,7 +1725,7 @@ let data = {
             ]
         },
         {   
-            "id": 21,
+            "id": 34,
             "background": "https://image.tmdb.org/t/p/original/tDYwYktjFmpj92S2Qn4T3BcRgL.jpg",
             "trailer": "https://www.youtube.com/watch?v=hL6R3HmQfPc",
             "category": "Phim kinh dị",
@@ -812,7 +1766,7 @@ let data = {
             ]
         },
         {   
-            "id": 22,
+            "id": 35,
             "background": "https://image.tmdb.org/t/p/original/pUc51UUQb1lMLVVkDCaZVsCo37U.jpg",
             "trailer": "https://www.youtube.com/watch?v=gRbG2tjHYCA",
             "category": "Phim kinh dị",
@@ -853,7 +1807,7 @@ let data = {
             ]
         },
         {   
-            "id": 23,
+            "id": 36,
             "background": "https://image.tmdb.org/t/p/original/qi6Edc1OPcyENecGtz8TF0DUr9e.jpg",
             "trailer": "https://www.youtube.com/watch?v=h9Q4zZS2v1k",
             "category": "Phim kinh dị",
@@ -894,7 +1848,7 @@ let data = {
             ]
         },
         {   
-            "id": 24,
+            "id": 37,
             "background": "https://image.tmdb.org/t/p/original/g15PR8eQV9DehSWlagvdnJZqoRq.jpg",
             "trailer": "https://www.youtube.com/watch?v=gzy6ORqE9IY",
             "category": "Phim kinh dị",
@@ -935,7 +1889,7 @@ let data = {
             ]
         },
         {   
-            "id": 25,
+            "id": 38,
             "background": "https://image.tmdb.org/t/p/original/owOBJlzH3j3YHUbr3XqSH10CWzo.jpg",
             "trailer": "https://www.youtube.com/watch?v=HCAaonjgDEA",
             "category": "Phim kinh dị",
@@ -978,7 +1932,7 @@ let data = {
     ],
     "phimvientuong": [
         {   
-            "id": 18,
+            "id": 41,
             "background": "https://image.tmdb.org/t/p/original/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
             "trailer": "https://www.youtube.com/watch?v=n9xhJrPXop4",
             "category": "Phim viễn tưởng",
@@ -1019,7 +1973,7 @@ let data = {
             ]
         },
         {   
-            "id": 26,
+            "id": 42,
             "background": "https://image.tmdb.org/t/p/original/juDEveV0GPdvofbii5ZpfVYKFue.jpg",
             "trailer": "https://www.youtube.com/watch?v=-0bYWnP3jH4",
             "category": "Phim viễn tưởng",
@@ -1060,7 +2014,7 @@ let data = {
             ]
         },
         {   
-            "id": 27,
+            "id": 43,
             "background": "https://image.tmdb.org/t/p/original/vZUpGL9SgS3q5lmEoaXKbxwgh9G.jpg",
             "trailer": "https://www.youtube.com/watch?v=hw0m4B6UkHA",
             "category": "Phim viễn tưởng",
@@ -1101,7 +2055,7 @@ let data = {
             ]
         },
         {   
-            "id": 28,
+            "id": 44,
             "background": "https://image.tmdb.org/t/p/original/3RMbkXS4ocMmoJyAD3ZsWbm32Kx.jpg",
             "trailer": "https://www.youtube.com/watch?v=2fuowcxdrYc",
             "category": "Phim viễn tưởng",
@@ -1142,7 +2096,7 @@ let data = {
             ]
         },
         {   
-            "id": 29,
+            "id": 45,
                 "background": "https://image.tmdb.org/t/p/original/yC4DRg5aGgNpkHpUDpLtBqzownS.jpg",
                 "trailer": "https://www.youtube.com/watch?v=Mgnh04LyVXE",
                 "category": "Phim viễn tưởng",
@@ -1183,7 +2137,7 @@ let data = {
                 ]
             },
             {   
-                "id": 30,
+                "id": 46,
                     "background": "https://image.tmdb.org/t/p/original/7WJjFviFBffEJvkAms4uWwbcVUk.jpg",
                     "trailer": "https://www.youtube.com/watch?v=tvTIzMyLFSg",
                     "category": "Phim viễn tưởng",
@@ -1224,7 +2178,7 @@ let data = {
                     ]
                 },
                 {   
-                    "id": 31,
+                    "id": 47,
                         "background": "https://image.tmdb.org/t/p/original/ovggmAOu1IbPGTQE8lg4lBasNC7.jpg",
                         "trailer": "https://www.youtube.com/watch?v=nRf4ZgzHoVw",
                         "category": "Phim viễn tưởng",
@@ -1265,7 +2219,7 @@ let data = {
                         ]
                     },
                     {   
-                        "id": 32,
+                        "id": 48,
                             "background": "https://image.tmdb.org/t/p/original/8yhWlFcJ8zCqjfCvLy3lWFuawR1.jpg",
                             "trailer": "https://www.youtube.com/watch?v=nRf4ZgzHoVw",
                             "category": "Phim viễn tưởng",
@@ -1308,7 +2262,7 @@ let data = {
     ],
     "phimhoathinh":[
         {   
-            "id": 33,
+            "id": 51,
                 "background": "https://image.tmdb.org/t/p/original/cJ0vEnEGWZDv2a5SRRRGxtRTlPm.jpg",
                 "trailer": "https://www.youtube.com/watch?v=nRf4ZgzHoVw",
                 "category": "Phim hoạt hình",
@@ -1349,7 +2303,7 @@ let data = {
                 ]
             },
             {   
-                "id": 34,
+                "id": 52,
                     "background": "https://image.tmdb.org/t/p/original/xMPpi0sw1g027ZbzZpHTKweyZw6.jpg",
                     "trailer": "https://www.youtube.com/watch?v=vQehygKHks0",
                     "category": "Phim hoạt hình",
@@ -1380,7 +2334,7 @@ let data = {
                     ]
                 },
                 {   
-                    "id": 35,
+                    "id": 53,
                         "background": "https://image.tmdb.org/t/p/original/yqnC3Mp5SL2bpo4bBwtoxyu2E6J.jpg",
                         "trailer": "https://www.youtube.com/watch?v=KJZS7oXX5SE",
                         "category": "Phim hoạt hình",
@@ -1411,7 +2365,7 @@ let data = {
                         ]
                     },
                     {   
-                        "id": 36,
+                        "id": 54,
                             "background": "https://image.tmdb.org/t/p/original/luzRIdzL9RzfQoaIVyZW6CvMxY6.jpg",
                             "trailer": "https://www.youtube.com/watch?v=F3akS9YsmfU",
                             "category": "Phim hoạt hình",
@@ -1447,7 +2401,7 @@ let data = {
                             ]
                         },
                         {   
-                            "id": 37,
+                            "id": 55,
                                 "background": "https://image.tmdb.org/t/p/original/4N6zEMfZ57zNEQcM8gWeERFupMv.jpg",
                                 "trailer": "https://www.youtube.com/watch?v=x9D0uUKJ5KI",
                                 "category": "Phim hoạt hình",
@@ -1468,7 +2422,7 @@ let data = {
                                 ]
                             },
                             {   
-                                "id": 38,
+                                "id": 56,
                                     "background": "https://image.tmdb.org/t/p/original/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg",
                                     "trailer": "https://www.youtube.com/watch?v=mYfJxlgR2jw",
                                     "category": "Phim hoạt hình",
@@ -1504,7 +2458,7 @@ let data = {
                                     ]
                                 },
                                 {   
-                                    "id": 39,
+                                    "id": 57,
                                         "background": "https://image.tmdb.org/t/p/original/9ns9463dwOeo1CK1JU2wirL5Yi1.jpg",
                                         "trailer": "https://www.youtube.com/watch?v=kP9TfCWaQT4",
                                         "category": "Phim hoạt hình",
@@ -1540,7 +2494,7 @@ let data = {
                                         ]
                                     },
                                     {   
-                                        "id": 40,
+                                        "id": 58,
                                             "background": "https://image.tmdb.org/t/p/original/3emtmbHAp145frh3Pps1bZCCEHY.jpg",
                                             "trailer": "https://www.youtube.com/watch?v=1VIZ89FEjYI",
                                             "category": "Phim hoạt hình",
@@ -1581,7 +2535,7 @@ let data = {
                                             ]
                                         },
                                         {   
-                                            "id": 41,
+                                            "id": 59,
                                                 "background": "https://image.tmdb.org/t/p/original/lojne3fQGObwbqIG998JmV9dhZ2.jpg",
                                                 "trailer": "https://www.youtube.com/watch?v=JrO639lX8Uc",
                                                 "category": "Phim hoạt hình",

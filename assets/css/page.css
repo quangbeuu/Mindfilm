@@ -4,6 +4,26 @@
     padding-top: 188px;
 }
 
+.movie__item{
+    display: none;
+}
+
+.movie__item:nth-child(1),
+.movie__item:nth-child(2),
+.movie__item:nth-child(3),
+.movie__item:nth-child(4),
+.movie__item:nth-child(5),
+.movie__item:nth-child(6),
+.movie__item:nth-child(7),
+.movie__item:nth-child(8),
+.movie__item:nth-child(9),
+.movie__item:nth-child(10),
+.movie__item:nth-child(11),
+.movie__item:nth-child(12){
+    display: block;
+}
+
+
 .content__header{
     display: flex;
     flex-direction: column;
@@ -24,3 +44,24 @@
     margin-bottom: 38px;
 }
 
+
+/* Phần loadmore btn */
+.movie__loadmore{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+    margin-top: 28px;
+}
+.movie__loadmore-btn{
+    outline: none;
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 18px;
+    font-size: 16px;
+}
+
+.movie__loadmore-btn:hover{
+    opacity: 0.9;
+}
