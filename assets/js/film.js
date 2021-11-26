@@ -107,3 +107,20 @@ getFilmById(filmId);
 
 
 
+// 2. Mở đóng thanh Slidebar
+
+let movieSlidebarOpen = document.getElementById('movie__menu-open');
+let movieSlidebarClose = document.getElementById('movie__slidebar-close');
+let movieSlidebarContainer = document.getElementById('movie__slidebar-container')
+
+function showSlidebar() {
+    movieSlidebarContainer.classList.add('movie__slidebar-open')
+}
+
+movieSlidebarOpen.addEventListener('click', showSlidebar);
+
+function hideSlidebar() {
+    movieSlidebarContainer.classList.remove('movie__slidebar-open')
+}
+
+movieSlidebarClose.addEventListener('click', hideSlidebar);
