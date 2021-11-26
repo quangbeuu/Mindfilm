@@ -39,7 +39,7 @@ function displayFilm(film){
                     </div>
                     <a href="${film.trailer}" class="movie__watch-btn">
                         <i class="movie__watch-icon fa fa-play"></i>
-                        Xem phim
+                        Xem trailer
                     </a>
                 </div>
                 <div class="movie__column main">
