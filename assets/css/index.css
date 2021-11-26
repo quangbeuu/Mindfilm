@@ -61,7 +61,7 @@ a{
 }
 
 .movie__menu-link{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: white;
     transition: all ease-in 0.1s;
@@ -394,7 +394,7 @@ a{
 .movie__title{
     color: #fff;
     margin-top: 8px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .movie__subtitle{
