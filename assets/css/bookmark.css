@@ -1,0 +1,22 @@
+.movie__content{
+    padding-top: 188px;
+}
+
+.movie__bookmark-header-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie__bookmark-header, .movie__bookmark-icon{
+    color: white;
+    font-weight: 900;
+    font-size: 68px;
+    letter-spacing: 2px;
+    margin-bottom: 38px;
+    margin-right: 20px;
+}
+
+.movie__list{
+    display: flex;
+}

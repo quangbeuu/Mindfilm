@@ -133,8 +133,8 @@ a{
     position: absolute;
     top: -10px;
     right: 0;
-    width: 100px;
-    height: 18px;
+    width: 200px;
+    height: 800px;
     background-color: transparent;
 }
 
@@ -205,6 +205,7 @@ a{
     top: 50%;
     transform: translateY(-50%);
     right: 10px;
+    cursor: pointer;
 }
 
 .movie__slidebar-btn{
@@ -357,7 +358,6 @@ a{
     display: flex;
     align-items: center;
     border-bottom: 1px solid #eeee;
-    border-top: 1px solid #eeee;
     justify-content: space-between;
 }
 .movie__header{
@@ -375,26 +375,31 @@ a{
     margin-top: 18px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* display: none; */
+    margin-left: -18px;
 }
 
 
 .movie__item{
-    margin-left: 8px;
+    width: calc((100% / 4) - 18px);
+    margin-left: 18px;
     margin-bottom: 18px;
 }
 
 .movie__image{
-    width: 280px;
-    height: 418px;
     object-fit: cover;
 }
 
 .movie__title{
-    width: 276px;
+    color: #fff;
     margin-top: 8px;
-    color: white;
+    font-size: 20px;
+}
+
+.movie__subtitle{
+    margin-top: 8px;
+    color: #7A7A7A;
 }
 
 /* 4. Footer */
@@ -467,4 +472,69 @@ a{
     font-size: 16px;
     color: white;
     font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+    .movie__menu,.movie__menu-icon-search,.movie__menu-bookmark,.sigin-menu{
+        display: none;
+    }
+    .movie__slider-wrapper{
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        height: 10000px;
+    }
+    .movie__slider-wrapper{
+        height: 400px;
+    }
+
+    .movie__title{
+        font-size: 15px;
+        max-width: 180px;
+    }
+    
+    .movie__subtitle{
+        font-size: 13px;
+    }
+
+    .movie__item{
+        width: calc((100% / 3) - 18px);
+    }
+
+    .footer__mid{
+        display: none;
+    }
+
+    .footer__right{
+        margin-left: auto;
+    }
+
+}
+
+.error{
+    margin-top: 8px;
+    color: red;
+    font-size: 14px;
+}
+
+
+@media (max-width: 414px){
+    html{
+        width: 1000px;
+    }
+
+    .movie__item{
+        width: calc((100% / 3) - 18px);
+    }
+}
+
+@media (max-width: 375px){
+    html{
+        width: 1000px;
+    }
+
+    
 }

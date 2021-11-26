@@ -18,8 +18,10 @@ const displayFilm = (film) => {
         .map((phimvientuong) =>{
             return `
             <div class="movie__item">
-                <img src="${phimvientuong.imageUrl}" alt="" class="movie__image">
-                <h1 class="movie__title">${phimvientuong.title}</h1>
+                <a href="film.html?id=${phimvientuong.id}">
+                    <img src="${phimvientuong.imageUrl}" alt="" class="movie__image">
+                    <h1 class="movie__title">${phimvientuong.title}</h1>
+                </a>
             </div>
             `
         }).join("")
@@ -27,6 +29,25 @@ const displayFilm = (film) => {
 }
 
 loadFilms()
+
+// 1. Loadmore btn
+const loadmore = document.querySelector("#loadmore");
+let currentItems = 12;
+
+loadmore.addEventListener("click",(e)=>{
+    const elementList = [...document.querySelectorAll('.movie__item')];
+    for (let i = currentItems; i < currentItems + 8; i++){
+        if(elementList[i]){
+            elementList[i].style.display = 'block'; 
+        }
+    }
+    currentItems += 8;
+
+    // Nút sẽ ẩn đi khi nút được tải đầy đủ 
+    if (currentItems >= elementList.length){
+        e.target.style.display = "none"
+    }
+})
 
 // 2. Mở đóng thanh Slidebar
 

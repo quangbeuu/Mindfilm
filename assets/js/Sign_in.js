@@ -145,7 +145,7 @@ document.querySelector(".movie__signup-form-submit").addEventListener("click",fu
     }
 
     if(!password){
-        document.getElementById("email-signup").nextElementSibling.textContent = "Email cannot be empty!";
+        document.getElementById("password-signup").nextElementSibling.textContent = "Password cannot be empty!";
         check = false;
     }
 
@@ -165,4 +165,16 @@ document.querySelector(".movie__signup-form-submit").addEventListener("click",fu
         // ẩn đăng ký hiện đăng nhập
         signinBlock();
     }
+})
+
+// 6. Đăng xuất 
+document.getElementsByClassName("signout-btn")[0].addEventListener("click",(e)=>{
+                let menuBtn = document.getElementsByClassName("sigin-menu"); 
+                menuBtn[0].style.visibility="visible";
+
+                document.getElementsByClassName("signin-slidebar")[0].style.display = "block";
+                document.getElementsByClassName("signup-btn")[0].style.display = "block";
+                document.getElementsByClassName("signout-btn")[0].style.display = "none";
+                document.getElementsByClassName("movie__slidebar-username")[0].innerHTML = ``
+
 })

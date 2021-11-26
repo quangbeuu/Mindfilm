@@ -368,3 +368,12 @@ img {
     color: #74c69d;
     text-decoration: none;  
 }
+
+@media (max-width: 1024px) {
+    html{
+        height: 588px;
+    }
+    .movie__login{
+        padding: 0;
+    }
+}

@@ -67,7 +67,8 @@ const displayFilm = (film) => {
                 <div class="movie__item">
                 <a href="film.html?id=${movie.id}">
                     <img src="${movie.imageUrl}" alt="" class="movie__image">
-                    <h1 class="movie__title">${movie.title} - ${movie.subtitle}</h1>
+                    <h1 class="movie__title">${movie.title}</h1>
+                    <h2 class="movie__subtitle">${movie.subtitle}</h2>
                 </a>
                 </div>
                 `
@@ -81,7 +82,10 @@ const displayFilm = (film) => {
 
 // c. Search
 const searchMovie = document.querySelector('#btn-search');
+const searchMovieSlidebar = document.querySelector('#search-slidebar');
 const inputMovie = document.getElementById("movie__search");
+const inputMovieSlidebar = document.getElementById('movie-search-slidebar')
+
 
 let allFilm = [];
 
@@ -94,11 +98,23 @@ searchMovie.addEventListener("click", (e) => {
     searchEvent();
 })
 
+searchMovieSlidebar.addEventListener("click", (e) => {
+    e.preventDefault();
+    searchEventSlidebar();
+})
+
 // + Tìm kiếm khi gõ r ấn enter 
 inputMovie.addEventListener("keyup", (event) => {
     if (event.keyCode === 13) {
         event.preventDefault();
         searchEvent()
+    }
+})
+
+inputMovieSlidebar.addEventListener("keyup", (event) => {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        searchEventSlidebar()
     }
 })
 
@@ -120,6 +136,24 @@ function searchEvent() {
     document.querySelector(".movie__count").innerHTML = `Đã tìm thấy ${movieItem.length} phim`;
 }
 
+function searchEventSlidebar() {
+    const searchStringSlidebar = document.querySelector("#movie-search-slidebar").value.toLowerCase();
+    console.log(searchStringSlidebar);
+    console.log(allFilm)
+
+    if (searchStringSlidebar !== "") {
+        const filterMovies = fullFilm.filter((film) => {
+            return film.title.toLowerCase().includes(searchStringSlidebar)
+        })
+        console.log(filterMovies);
+        displayFilm(filterMovies);
+    } else {
+        alert("Bạn chưa điền gì!");
+    }
+
+    let movieItem = document.querySelectorAll(".movie__item");
+    document.querySelector(".movie__count").innerHTML = `Đã tìm thấy ${movieItem.length} phim`;
+}
 
 loadFilms()
 

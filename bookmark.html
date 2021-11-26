@@ -16,6 +16,7 @@
     
     <!-- Index CSS -->
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/bookmark.css">
 
     <!-- Link cho ảnh lên phần URL -->
     <link rel='shortcut icon' href='./assets/img/sublogo.png'/>
@@ -150,7 +151,9 @@
                     </div>
                 </div>
                 <div class="movie__menu-search">
-                    <i class="movie__menu-icon fa fa-bookmark"></i>
+                    <a href="bookmark.html">
+                        <i class="movie__menu-icon fa fa-bookmark"></i>
+                    </a>
                 </div>
                 <div class="movie__menu-search" id="movie__menu-open">
                     <i class="movie__menu-icon fas fa-bars"></i>
@@ -220,9 +223,24 @@
         </div>
         <!-- End Slidebar -->
 
-        <div class="movie__bookmark">
-            <h2 class="movie__bookmark-header">Bookmark của bạn</h2>
+        
+
+        <!-- Start Content -->
+        <div class="movie__content">
+           <div class="movie__bookmark-header-wrap">
+                <i class="movie__bookmark-icon fa fa-bookmark"></i>
+                <h2 class="movie__bookmark-header">Bookmark của bạn</h2>
+           </div>
+           <!-- <div class="movie__box">
+                <div class="movie__list" id="phimtinhcam">
+                    <div class="movie__item">
+                        <img src="" alt="" class="movie__image">
+                        <h1 class="movie__title"></h1>
+                    </div>
+                </div>
+            </div> -->
         </div>
+        <!-- End Content -->
 
         <!-- Start Footer -->
         <footer class="footer">
@@ -234,17 +252,17 @@
                 </div>
                 <div class="footer__social">
                     <div class="footer__icon">
-                        <a href="" class="footer__icon-link">
+                        <a href="https://www.facebook.com/profile.php?id=100005766824549" class="footer__icon-link">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </div>
                     <div class="footer__icon">
-                        <a href="" class="footer__icon-link">
+                        <a href="https://www.instagram.com/" class="footer__icon-link">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                     <div class="footer__icon">
-                        <a href="" class="footer__icon-link">
+                        <a href="https://www.youtube.com/channel/UCqhK8nbM352e1znwNXNSB1w" class="footer__icon-link">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
@@ -312,6 +330,7 @@
         <!-- End Footer -->
     </div>
     <script src="./assets/js/data.js"></script>
-    
+    <script src="./assets/js/displaybookmark.js"></script>
+    <script src="./assets/js/Sign_in.js"></script>
 </body>
 </html>

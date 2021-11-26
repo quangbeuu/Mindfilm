@@ -1,7 +1,7 @@
 .movie__info{
     min-height: 0;
     min-width: 0;
-    transform: translateY(80px);
+    padding-top: 80px;
 }
 
 /* 1. Phần ảnh nền */
@@ -167,6 +167,24 @@
     margin-bottom: 7rem;
 }
 
+.movie__bookmark-delete{
+    background-color: transparent;
+    border-color: #dd003f;
+    color: #dd003f;
+    line-height: 1.8rem;
+    display: flex;
+    margin-top: 1.3em;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(0.5em - 1px) 1em;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    transition: all linear 0.1s;
+    margin-bottom: 7rem;
+    display: none;
+}
 .movie__bookmark:hover{
     background-color: #3298dc;
     color: #fff;
@@ -255,6 +273,28 @@
     color: #7a7a7a;
 }
 
-.footer{
-    transform: translateY(80px);
+@media (max-width: 1024px) {
+    .movie__menu,.movie__menu-icon-search,.movie__menu-bookmark,.sigin-menu{
+        display: none;
+    }
+
+    .movie__details{
+        flex-direction: column;
+    }
+
+    /* .movie__column{
+        margin: 0 auto;
+    } */
+
+    .movie__column.one-quarter-tablet{
+        flex: none;
+        width: 50%;
+        /* transform: translateX(20%); */
+    }
+
+    .movie__watch-btn{
+        display: block;
+        width: 70%;
+    }
+
 }
